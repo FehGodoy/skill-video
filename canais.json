@@ -1,0 +1,41 @@
+{
+ "kaggle_usuario": "fehgod0y",
+ "canais": {
+  "honda": {
+   "nome": "Honda Deep Dive",
+   "youtube": "@HondaDeepDive",
+   "idioma": "en",
+   "voice_id": "47c38ca4-5f35-497b-b1a3-415245fb35e1",
+   "voz": "Daniel - Modern Assistant",
+   "velocidade": 0.9,
+   "estilo_imagem": "automotive photography, realistic photo, sharp focus, natural lighting, highly detailed",
+   "publico": "Donos e fãs de Honda nos EUA; querem saber o que comprar, o que evitar e como economizar.",
+   "estilo_titulos": [
+    "Honda Recalls 1,000,000 Vehicles: This Bottle Can Injure You",
+    "2026 Honda Prelude: Is It Actually Worth $43,195?",
+    "7 Honda Dealership Tricks That Cost You Thousands",
+    "The Worst and Best Honda Engines Ever Built (20-Year Mechanic Explains)",
+    "WHY YOUR HONDA DIES AT 150K (AND HOW SOME LAST TO 300K)"
+   ],
+   "cuidados": "Sem emblemas/logos no prompt de imagem (pedir 'no logos'). Fatos técnicos conferíveis; quando houver dúvida, suavizar ('many owners report')."
+  },
+  "gesund": {
+   "nome": "Gesund ab 60",
+   "youtube": "@gesundab60ofz",
+   "idioma": "de",
+   "voice_id": "d42fc8d7-efdd-44df-bb2e-a6e093601917",
+   "voz": "Oskar - Steady Advisor",
+   "velocidade": 1.0,
+   "estilo_imagem": "realistic photo, soft natural lighting, warm tones, highly detailed, documentary style",
+   "publico": "Pessoas acima de 60 na Alemanha; linguagem simples, tratamento 'Sie', tom calmo e acolhedor.",
+   "estilo_titulos": [
+    "Er starb im Schlaf – wegen DIESER 5 Alltagsgewohnheiten",
+    "Diese Frucht schützt Ihre Augen im Alter – die meisten essen sie falsch!",
+    "Der wahre Grund, warum Sie nachts aufwachen, um zur Toilette zu gehen (es ist nicht Ihre Blase)",
+    "5 Dinge, die Sie vermeiden sollten, wenn Sie jetzt Amlodipin einnehmen",
+    "Trockener Mund am Morgen: Was Ihr Körper Ihnen wirklich sagen will"
+   ],
+   "cuidados": "Saúde: só informação consensual (diretrizes médicas comuns). Sempre: aviso 'ersetzt keinen Arztbesuch' no início, '112' em sintomas de emergência, nunca mandar parar remédio, sem promessas de cura. Descrição com aviso médico e de imagens por IA."
+  }
+ }
+}

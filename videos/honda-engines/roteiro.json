@@ -1,0 +1,946 @@
+{
+ "canal": "honda",
+ "voice_id": "47c38ca4-5f35-497b-b1a3-415245fb35e1",
+ "language": "en",
+ "titulo": "The Best and Worst Honda Engines Ever Built (And Which Ones to Avoid)",
+ "descricao": "From the bulletproof D16 to the oil-thirsty J35 with VCM, here are the Honda engines that made legends, and the ones that made headaches.\n\nImages in this video are AI-generated illustrations.",
+ "tags": "honda,honda engines,vtec,k24,f20c,b18c,j35,honda reliability,civic,accord",
+ "estilo_imagem": "automotive photography, realistic photo, sharp focus, natural lighting, highly detailed",
+ "cenas": [
+  {
+   "titulo": "Honda Engines",
+   "falas": [
+    {
+     "texto": "Honda built its reputation on *engines*. Not on styling, not on luxury, but on what sits under the hood.",
+     "imagens": [
+      {
+       "id": "h001",
+       "prompt": "open hood of a clean 1990s honda civic showing a polished engine bay",
+       "rotulo": "Under the hood"
+      }
+     ]
+    },
+    {
+     "texto": "Some of those engines became *legends*, running past three hundred thousand miles.",
+     "imagens": [
+      {
+       "id": "h002",
+       "prompt": "close-up of an old car dashboard odometer showing very high mileage, warm light",
+       "rotulo": "300,000 miles"
+      }
+     ]
+    },
+    {
+     "texto": "Others turned into *expensive* problems that owners still talk about today.",
+     "imagens": [
+      {
+       "id": "h003",
+       "prompt": "frustrated man looking at a car repair invoice in a mechanic workshop",
+       "rotulo": "Big repair bills"
+      }
+     ]
+    },
+    {
+     "texto": "So today we're going through the best Honda engines ever built, and the ones you should think twice about.",
+     "topicos": [
+      "The best",
+      "The worst"
+     ]
+    },
+    {
+     "texto": "We'll look at power, reliability, and what each engine is really like to own *today*, as a used car.",
+     "imagens": [
+      {
+       "id": "h038",
+       "prompt": "used car lot with rows of japanese compact cars, sunny day, no logos",
+       "rotulo": "Used market"
+      }
+     ]
+    },
+    {
+     "texto": "And stay until the end, because one of the worst engines is still sitting in thousands of driveways right now.",
+     "imagens": [
+      {
+       "id": "h039",
+       "prompt": "suburban driveway at dusk with a family minivan parked, no logos",
+       "rotulo": "In your driveway?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "CVCC: The Engine That Started It All",
+   "falas": [
+    {
+     "texto": "But first, a little history. In the early seventies, America passed tough new *clean air* laws.",
+     "imagens": [
+      {
+       "id": "h064",
+       "prompt": "1970s city street with smoggy air and old american cars, vintage photo style",
+       "rotulo": "Smog"
+      }
+     ]
+    },
+    {
+     "texto": "Big carmakers said meeting them without a catalytic converter was impossible.",
+     "imagens": [
+      {
+       "id": "h065",
+       "prompt": "1970s auto industry executives in suits at a press conference, vintage photo",
+       "rotulo": "\"Impossible\""
+      }
+     ]
+    },
+    {
+     "texto": "Then a small company from Japan showed up with the *CVCC* engine.",
+     "imagens": [
+      {
+       "id": "h066",
+       "prompt": "small 1970s japanese compact hatchback car in orange on a city street, vintage photo, no logos",
+       "rotulo": "First Civic"
+      }
+     ]
+    },
+    {
+     "texto": "It used a clever pre-chamber to burn fuel more completely, and it passed the tests with no catalytic converter at all.",
+     "topicos": [
+      "Pre-chamber",
+      "Cleaner burn",
+      "No catalytic converter"
+     ]
+    },
+    {
+     "texto": "During the oil crisis, that tiny, efficient Civic suddenly looked very smart. That is where the Honda engine reputation really begins.",
+     "imagens": [
+      {
+       "id": "h067",
+       "prompt": "long line of cars waiting at a gas station during the 1970s oil crisis, vintage photo",
+       "rotulo": "Oil crisis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "D16: The Workhorse",
+   "falas": [
+    {
+     "texto": "Let's start with the engine that put millions of Hondas on the road: the *D16*.",
+     "imagens": [
+      {
+       "id": "h004",
+       "prompt": "small inline four cylinder engine on an engine stand in a clean garage, 1990s japanese",
+       "rotulo": "D16 engine"
+      }
+     ]
+    },
+    {
+     "texto": "You'll find it in Civics from the late eighties all the way to two thousand.",
+     "imagens": [
+      {
+       "id": "h005",
+       "prompt": "silver 1990s honda civic hatchback parked on a suburban street",
+       "rotulo": "Civic"
+      }
+     ]
+    },
+    {
+     "texto": "It wasn't fast. But it was *simple*, light, and incredibly forgiving.",
+     "topicos": [
+      "Simple",
+      "Light",
+      "Forgiving"
+     ]
+    },
+    {
+     "texto": "Skip an oil change, drive it hard, ignore it for years, and it usually just keeps going.",
+     "imagens": [
+      {
+       "id": "h006",
+       "prompt": "dirty used engine oil being drained into a pan under a car",
+       "rotulo": "Neglect"
+      }
+     ]
+    },
+    {
+     "texto": "That's why so many of them are still running today, and why tuners love them as a cheap starting point.",
+     "imagens": [
+      {
+       "id": "h007",
+       "prompt": "modified 1990s civic at a night car meet with other tuner cars",
+       "rotulo": "Tuner favorite"
+      }
+     ]
+    },
+    {
+     "texto": "Parts are everywhere, they're cheap, and almost any mechanic knows how to work on one.",
+     "topicos": [
+      "Cheap parts",
+      "Easy to fix",
+      "Huge community"
+     ]
+    },
+    {
+     "texto": "Its weak points are minor: oil leaks from the valve cover gasket and a timing belt that needs changing on schedule.",
+     "imagens": [
+      {
+       "id": "h052",
+       "prompt": "engine timing belt and pulleys exposed during service",
+       "rotulo": "Timing belt"
+      }
+     ]
+    },
+    {
+     "texto": "Ignore that belt, though, and an interference version can bend its valves. So that's the one job you never skip.",
+     "topicos": [
+      "Belt every ~90k miles",
+      "Never skip it"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "B18C: Born to Rev",
+   "falas": [
+    {
+     "texto": "If the D16 was the workhorse, the *B-series* was the race horse.",
+     "imagens": [
+      {
+       "id": "h008",
+       "prompt": "red valve cover of a high performance four cylinder engine in a sports compact car",
+       "rotulo": "B-series"
+      }
+     ]
+    },
+    {
+     "texto": "The B18C in the Integra Type R made around one hundred and ninety-five horsepower from just one point eight liters.",
+     "imagens": [
+      {
+       "id": "h009",
+       "prompt": "white late 1990s acura integra type r coupe on a race track, no logos",
+       "rotulo": "Integra Type R"
+      }
+     ]
+    },
+    {
+     "texto": "And it loved to rev, all the way past *eight thousand* RPM.",
+     "imagens": [
+      {
+       "id": "h010",
+       "prompt": "tachometer needle near 8000 rpm in a sports car at night",
+       "rotulo": "8,000+ RPM"
+      }
+     ]
+    },
+    {
+     "texto": "This is the engine that made the word *VTEC* famous.",
+     "topicos": [
+      "Variable valve timing",
+      "Two cam profiles",
+      "The famous VTEC kick"
+     ]
+    },
+    {
+     "texto": "The catch? Clean examples are now rare and expensive, and many have been abused by previous owners.",
+     "imagens": [
+      {
+       "id": "h011",
+       "prompt": "worn out tuned honda engine bay with aftermarket parts and loose wires",
+       "rotulo": "Abused examples"
+      }
+     ]
+    },
+    {
+     "texto": "If you find one that's stock and documented, you're looking at a future classic that's still gaining value.",
+     "imagens": [
+      {
+       "id": "h040",
+       "prompt": "pristine stock 1990s sports coupe in a collector garage under soft lights, no logos",
+       "rotulo": "Future classic"
+      }
+     ]
+    },
+    {
+     "texto": "Engineers ported the heads by hand, which is something you'd normally only see in race cars.",
+     "imagens": [
+      {
+       "id": "h053",
+       "prompt": "engineer hand polishing a cylinder head port in a workshop, close-up",
+       "rotulo": "Hand-ported heads"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "F20C: The S2000 Masterpiece",
+   "falas": [
+    {
+     "texto": "Then Honda went even further with the *F20C*, the heart of the S2000.",
+     "imagens": [
+      {
+       "id": "h012",
+       "prompt": "silver honda s2000 roadster top down on a coastal road at sunset, no logos",
+       "rotulo": "S2000"
+      }
+     ]
+    },
+    {
+     "texto": "Two liters. Around two hundred and forty horsepower. And a redline of *nine thousand* RPM.",
+     "topicos": [
+      "2.0 liters",
+      "~240 hp",
+      "9,000 RPM redline"
+     ]
+    },
+    {
+     "texto": "For years, it had one of the highest outputs per liter of any naturally aspirated production engine.",
+     "imagens": [
+      {
+       "id": "h013",
+       "prompt": "high revving four cylinder engine with red valve cover in a roadster engine bay",
+       "rotulo": "F20C"
+      }
+     ]
+    },
+    {
+     "texto": "Treat it right, check the oil often, and it's remarkably durable for something that revs that high.",
+     "imagens": [
+      {
+       "id": "h014",
+       "prompt": "hand pulling an engine oil dipstick to check oil level",
+       "rotulo": "Check the oil"
+      }
+     ]
+    },
+    {
+     "texto": "Today, a clean S2000 costs more than it did new, and that F20C is a big reason why.",
+     "imagens": [
+      {
+       "id": "h041",
+       "prompt": "for sale sign on the windshield of a silver roadster, close-up",
+       "rotulo": "Rising prices"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "C30A: The NSX Heart",
+   "falas": [
+    {
+     "texto": "And we can't talk about great Honda engines without the *NSX*.",
+     "imagens": [
+      {
+       "id": "h015",
+       "prompt": "red 1991 mid-engine japanese supercar in a dark studio with rim lighting, no logos",
+       "rotulo": "NSX"
+      }
+     ]
+    },
+    {
+     "texto": "Its C30A V6 sat right behind the driver, with *titanium* connecting rods, something almost unheard of in a road car back then.",
+     "imagens": [
+      {
+       "id": "h016",
+       "prompt": "mid-mounted v6 engine visible through rear glass of a 1990s supercar",
+       "rotulo": "Mid-engine V6"
+      },
+      {
+       "id": "h017",
+       "prompt": "titanium engine connecting rod on a workbench, macro photo",
+       "rotulo": "Titanium rods"
+      }
+     ]
+    },
+    {
+     "texto": "It proved a Japanese car could match European exotics, and still be *easy* to live with every day.",
+     "topicos": [
+      "Exotic performance",
+      "Everyday reliability"
+     ]
+    },
+    {
+     "texto": "Thirty years later, many of these engines are still on their original internals.",
+     "topicos": [
+      "Original internals",
+      "Timing belt service",
+      "Rare but robust"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "K24: The Long-Distance King",
+   "falas": [
+    {
+     "texto": "Now, if you just want an engine that *lasts*, look at the K24.",
+     "imagens": [
+      {
+       "id": "h018",
+       "prompt": "clean modern inline four engine bay of a 2000s honda sedan",
+       "rotulo": "K24"
+      }
+     ]
+    },
+    {
+     "texto": "It powered Accords, CR-Vs and the Element for more than a decade.",
+     "imagens": [
+      {
+       "id": "h019",
+       "prompt": "2000s honda accord sedan in dark blue parked in a driveway, no logos",
+       "rotulo": "Accord"
+      },
+      {
+       "id": "h020",
+       "prompt": "2000s honda cr-v suv on a dirt road, no logos",
+       "rotulo": "CR-V"
+      },
+      {
+       "id": "h021",
+       "prompt": "boxy honda element suv parked at a campsite, no logos",
+       "rotulo": "Element"
+      }
+     ]
+    },
+    {
+     "texto": "It uses a *timing chain* instead of a belt, so there's one less expensive job to worry about.",
+     "imagens": [
+      {
+       "id": "h022",
+       "prompt": "close-up of an engine timing chain and sprockets",
+       "rotulo": "Timing chain"
+      }
+     ]
+    },
+    {
+     "texto": "With basic maintenance, many owners report two hundred and fifty to three hundred thousand miles.",
+     "topicos": [
+      "Oil changes",
+      "Valve adjustment",
+      "250,000+ miles"
+     ]
+    },
+    {
+     "texto": "It's not exciting, and it won't rev like a B18. But if you need a car that simply works, this is the one.",
+     "imagens": [
+      {
+       "id": "h042",
+       "prompt": "commuter sedan in morning traffic on a highway, realistic photo, no logos",
+       "rotulo": "Daily driver"
+      }
+     ]
+    },
+    {
+     "texto": "The most common issues are small: a noisy VTC actuator on cold starts and occasional oil leaks.",
+     "imagens": [
+      {
+       "id": "h054",
+       "prompt": "man listening to car engine idling on a cold morning, breath visible",
+       "rotulo": "Cold start rattle"
+      }
+     ]
+    },
+    {
+     "texto": "Neither one is a deal breaker, and both are relatively cheap to fix.",
+     "topicos": [
+      "VTC rattle: cheap fix",
+      "Oil leaks: minor"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "H22: The Prelude's Secret",
+   "falas": [
+    {
+     "texto": "Before we get to the worst ones, there's an underrated legend: the *H22* in the Prelude.",
+     "imagens": [
+      {
+       "id": "h044",
+       "prompt": "black 1990s japanese sports coupe parked under city lights at night, no logos",
+       "rotulo": "Prelude"
+      }
+     ]
+    },
+    {
+     "texto": "It was bigger than the B-series, with two point two liters and plenty of torque.",
+     "topicos": [
+      "2.2 liters",
+      "Strong mid-range",
+      "VTEC"
+     ]
+    },
+    {
+     "texto": "Honda even used a version of it in touring car *racing*.",
+     "imagens": [
+      {
+       "id": "h045",
+       "prompt": "1990s touring car race on a track, cars in close battle",
+       "rotulo": "Touring cars"
+      }
+     ]
+    },
+    {
+     "texto": "Its weak spots are oil consumption on high mileage engines and heat, so check the cooling system carefully.",
+     "imagens": [
+      {
+       "id": "h046",
+       "prompt": "mechanic inspecting a radiator hose in an engine bay",
+       "rotulo": "Cooling system"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "K20: The Type R Era",
+   "falas": [
+    {
+     "texto": "Then came the *K20*, the engine that carried VTEC into the two thousands.",
+     "imagens": [
+      {
+       "id": "h047",
+       "prompt": "modern four cylinder engine with red valve cover in a hatchback engine bay",
+       "rotulo": "K20"
+      }
+     ]
+    },
+    {
+     "texto": "It powered the RSX Type S and the Civic Si, and it became a favorite for engine swaps.",
+     "imagens": [
+      {
+       "id": "h048",
+       "prompt": "2000s sport compact coupe at a car show, no logos",
+       "rotulo": "RSX Type S"
+      },
+      {
+       "id": "h049",
+       "prompt": "engine hoist lifting an engine out of a car in a garage",
+       "rotulo": "Engine swaps"
+      }
+     ]
+    },
+    {
+     "texto": "Modern design, a timing chain, and a *huge* aftermarket. It's basically the D16 of a new generation.",
+     "topicos": [
+      "Timing chain",
+      "Huge aftermarket",
+      "Swap king"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "K20C1: The Turbo Type R",
+   "falas": [
+    {
+     "texto": "And when Honda finally went turbo in the Type R, it did it properly, with the *K20C1*.",
+     "imagens": [
+      {
+       "id": "h068",
+       "prompt": "modern white hot hatch with big rear wing parked in a pit lane, no logos",
+       "rotulo": "Civic Type R"
+      }
+     ]
+    },
+    {
+     "texto": "Over three hundred horsepower from two liters, sent through the front wheels.",
+     "topicos": [
+      "2.0 turbo",
+      "300+ hp",
+      "Front-wheel drive"
+     ]
+    },
+    {
+     "texto": "The Civic Type R set front-wheel drive lap records at the *Nürburgring*, beating cars that cost twice as much.",
+     "imagens": [
+      {
+       "id": "h069",
+       "prompt": "hot hatch racing around a famous green mountain race track, motion blur",
+       "rotulo": "Nürburgring"
+      }
+     ]
+    },
+    {
+     "texto": "So far, it has a solid track record. Just keep it cool on the track, and use quality oil.",
+     "imagens": [
+      {
+       "id": "h070",
+       "prompt": "car engine oil cooler and radiator visible behind front bumper grille",
+       "rotulo": "Keep it cool"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Worst #1: J35 with VCM",
+   "falas": [
+    {
+     "texto": "But not every Honda engine aged well. Let's talk about the *J35* with Variable Cylinder Management.",
+     "imagens": [
+      {
+       "id": "h023",
+       "prompt": "v6 engine in a minivan engine bay with dirty components",
+       "rotulo": "J35 V6"
+      }
+     ]
+    },
+    {
+     "texto": "To save fuel, VCM shuts off some cylinders while you cruise.",
+     "imagens": [
+      {
+       "id": "h024",
+       "prompt": "minivan cruising on a highway, motion blur, no logos",
+       "rotulo": "Highway cruising"
+      }
+     ]
+    },
+    {
+     "texto": "On many 2008 to 2013 Accords, Odysseys and Pilots, that led to *oil consumption*, fouled spark plugs and misfires.",
+     "imagens": [
+      {
+       "id": "h025",
+       "prompt": "fouled black spark plug held between fingers in a workshop",
+       "rotulo": "Fouled plugs"
+      },
+      {
+       "id": "h026",
+       "prompt": "check engine warning light glowing on a car dashboard",
+       "rotulo": "Misfires"
+      }
+     ]
+    },
+    {
+     "texto": "It even ended up in a *class action* settlement.",
+     "topicos": [
+      "Oil burning",
+      "Misfires",
+      "Class action"
+     ]
+    },
+    {
+     "texto": "Many owners now use a VCM disabler, but check with a trusted mechanic first.",
+     "imagens": [
+      {
+       "id": "h027",
+       "prompt": "mechanic talking with a car owner next to an open hood",
+       "rotulo": "Ask a mechanic"
+      }
+     ]
+    },
+    {
+     "texto": "The good news? Without VCM, the J35 is actually a very strong engine. The problem was the system, not the V6 itself.",
+     "topicos": [
+      "J35 without VCM: solid",
+      "VCM: the weak point"
+     ]
+    },
+    {
+     "texto": "Some owners also reported engine mounts wearing out faster, because of the vibration when cylinders switch on and off.",
+     "imagens": [
+      {
+       "id": "h055",
+       "prompt": "cracked rubber engine mount close-up in a car",
+       "rotulo": "Worn mounts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Worst #2: 1.5 Turbo Oil Dilution",
+   "falas": [
+    {
+     "texto": "Next: the early *1.5 liter turbo* in the 2017 and 2018 CR-V.",
+     "imagens": [
+      {
+       "id": "h028",
+       "prompt": "2017 compact suv in a snowy parking lot, cold winter morning, no logos",
+       "rotulo": "CR-V 1.5T"
+      }
+     ]
+    },
+    {
+     "texto": "In cold climates, fuel could mix into the engine oil. Owners noticed the oil level actually *rising*.",
+     "imagens": [
+      {
+       "id": "h029",
+       "prompt": "engine oil dipstick showing oil level above the full mark",
+       "rotulo": "Rising oil level"
+      },
+      {
+       "id": "h030",
+       "prompt": "frozen car windshield with frost in winter",
+       "rotulo": "Cold climate"
+      }
+     ]
+    },
+    {
+     "texto": "Honda released software updates and *extended* warranties in affected areas.",
+     "topicos": [
+      "Software update",
+      "Extended warranty"
+     ]
+    },
+    {
+     "texto": "If you're buying one used, ask for proof that the fix was done.",
+     "imagens": [
+      {
+       "id": "h031",
+       "prompt": "car service records and receipts on a table",
+       "rotulo": "Service records"
+      }
+     ]
+    },
+    {
+     "texto": "In warmer climates, most owners never noticed a thing. But it hurt Honda's reputation at the worst possible time.",
+     "imagens": [
+      {
+       "id": "h043",
+       "prompt": "compact suv driving on a sunny desert highway, no logos",
+       "rotulo": "Warm climates: fine"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Worst #3: R18 Cracked Blocks",
+   "falas": [
+    {
+     "texto": "And finally, some early *R18* engines in 2006 to 2009 Civics developed cracked engine blocks.",
+     "imagens": [
+      {
+       "id": "h032",
+       "prompt": "eighth generation compact sedan parked on a city street, no logos",
+       "rotulo": "2006-2009 Civic"
+      }
+     ]
+    },
+    {
+     "texto": "The first sign was usually a slow *coolant leak* with no obvious cause.",
+     "imagens": [
+      {
+       "id": "h033",
+       "prompt": "green coolant puddle on a garage floor under a car",
+       "rotulo": "Coolant leak"
+      },
+      {
+       "id": "h034",
+       "prompt": "car temperature gauge pointing toward hot",
+       "rotulo": "Overheating"
+      }
+     ]
+    },
+    {
+     "texto": "Honda extended the warranty, and most affected blocks have been replaced by now. But it's still worth checking.",
+     "topicos": [
+      "Check coolant",
+      "Ask for history"
+     ]
+    },
+    {
+     "texto": "If you see coolant disappearing and no visible leak, have a pressure test done before you buy.",
+     "imagens": [
+      {
+       "id": "h056",
+       "prompt": "mechanic using a cooling system pressure tester on a car radiator",
+       "rotulo": "Pressure test"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Worst #4: Hybrid IMA Batteries",
+   "falas": [
+    {
+     "texto": "One more to watch: the early *IMA* hybrid system in the Insight and Civic Hybrid.",
+     "imagens": [
+      {
+       "id": "h050",
+       "prompt": "small early 2000s hybrid hatchback with aerodynamic shape parked on a street, no logos",
+       "rotulo": "Early hybrid"
+      }
+     ]
+    },
+    {
+     "texto": "The engines themselves were fine, but the hybrid *batteries* often wore out early.",
+     "imagens": [
+      {
+       "id": "h051",
+       "prompt": "hybrid car battery pack removed and sitting on a workshop bench",
+       "rotulo": "Hybrid battery"
+      }
+     ]
+    },
+    {
+     "texto": "Replacing one could cost more than the car was worth.",
+     "topicos": [
+      "Weak batteries",
+      "Expensive replacement"
+     ]
+    },
+    {
+     "texto": "Today, refurbished batteries are cheaper, but on an old hybrid, always check the battery health before you buy.",
+     "imagens": [
+      {
+       "id": "h071",
+       "prompt": "mechanic using a diagnostic scanner plugged into a car obd port",
+       "rotulo": "Battery check"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "How to Make Any Honda Engine Last",
+   "falas": [
+    {
+     "texto": "Now, no matter which engine you have, a few habits make a *huge* difference.",
+     "imagens": [
+      {
+       "id": "h057",
+       "prompt": "well maintained car engine bay being inspected with a flashlight",
+       "rotulo": "Good habits"
+      }
+     ]
+    },
+    {
+     "texto": "First, check your oil level every few fill-ups. Many Honda engines use a little oil as they age, and running low is what kills them.",
+     "imagens": [
+      {
+       "id": "h058",
+       "prompt": "person checking engine oil at a gas station",
+       "rotulo": "Check oil often"
+      }
+     ]
+    },
+    {
+     "texto": "Second, follow the *valve adjustment* schedule. Hondas use screw-type adjusters, and tight valves can burn out over time.",
+     "imagens": [
+      {
+       "id": "h059",
+       "prompt": "mechanic adjusting engine valves with a feeler gauge and wrench",
+       "rotulo": "Valve adjustment"
+      }
+     ]
+    },
+    {
+     "texto": "Third, change the transmission fluid with genuine Honda fluid. Many automatic transmission problems start with the wrong fluid.",
+     "topicos": [
+      "Check oil",
+      "Adjust valves",
+      "Genuine fluids"
+     ]
+    },
+    {
+     "texto": "And finally, let the engine warm up before you use those high RPMs. VTEC can wait a few minutes.",
+     "imagens": [
+      {
+       "id": "h060",
+       "prompt": "car dashboard temperature gauge in the normal middle position",
+       "rotulo": "Warm up first"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Before You Buy a Used Honda",
+   "falas": [
+    {
+     "texto": "If you're shopping for a used Honda, here's a quick *checklist*.",
+     "imagens": [
+      {
+       "id": "h061",
+       "prompt": "person inspecting a used car at a dealership lot with a clipboard",
+       "rotulo": "Checklist"
+      }
+     ]
+    },
+    {
+     "texto": "Ask for service records, especially timing belt changes on older engines.",
+     "imagens": [
+      {
+       "id": "h062",
+       "prompt": "folder of car maintenance receipts and a service booklet",
+       "rotulo": "Service records"
+      }
+     ]
+    },
+    {
+     "texto": "Start the car cold. Listen for rattles, look for blue smoke, and check that the idle is smooth.",
+     "imagens": [
+      {
+       "id": "h063",
+       "prompt": "blue smoke from a car exhaust pipe on a cold morning",
+       "rotulo": "Blue smoke"
+      }
+     ]
+    },
+    {
+     "texto": "And run the VIN for open *recalls*. It takes thirty seconds and it can save you thousands.",
+     "topicos": [
+      "Records",
+      "Cold start",
+      "Recall check"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "The Verdict",
+   "falas": [
+    {
+     "texto": "So, what's the verdict? For pure fun, it's hard to beat the *B18C* and the F20C.",
+     "imagens": [
+      {
+       "id": "h035",
+       "prompt": "two japanese sports cars, a coupe and a roadster, parked side by side at golden hour, no logos",
+       "rotulo": "Fun"
+      }
+     ]
+    },
+    {
+     "texto": "For a car that just refuses to die, the *K24* is the safest bet.",
+     "imagens": [
+      {
+       "id": "h036",
+       "prompt": "high mileage sedan driving on an empty road into the sunrise",
+       "rotulo": "Reliability"
+      }
+     ]
+    },
+    {
+     "texto": "And if you're shopping used, be careful with VCM V6s and early turbo CR-Vs.",
+     "topicos": [
+      "Avoid: J35 VCM",
+      "Check: 1.5 turbo",
+      "Check: R18 block"
+     ]
+    },
+    {
+     "texto": "And remember, the best engine is usually the one that was *maintained*. A cared-for D16 beats a neglected B18 every time.",
+     "topicos": [
+      "Maintenance beats model"
+     ]
+    },
+    {
+     "texto": "Which Honda engine have you owned? Tell me in the comments, and *subscribe* to Honda Deep Dive for more.",
+     "imagens": [
+      {
+       "id": "h037",
+       "prompt": "person typing a comment on a smartphone, close-up",
+       "rotulo": "Comment below"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "velocidade": 0.9
+}

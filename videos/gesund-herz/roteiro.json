@@ -1,0 +1,700 @@
+{
+ "canal": "gesund",
+ "voice_id": "d42fc8d7-efdd-44df-bb2e-a6e093601917",
+ "language": "de",
+ "titulo": "7 Warnsignale Ihres Herzens, die NACHTS auftreten – die meisten ignorieren sie",
+ "descricao": "Ihr Herz sendet oft nachts die ersten Warnsignale. Hier sind 7 Zeichen, die Sie ernst nehmen sollten – und wann Sie zum Arzt gehen müssen.\n\nDieses Video dient nur der Information und ersetzt keine ärztliche Beratung. Bei Brustschmerzen oder akuter Atemnot rufen Sie sofort den Notruf 112.\n\nDie Bilder in diesem Video wurden mit KI erstellt.",
+ "tags": "herz,herzgesundheit,herzinsuffizienz,vorhofflimmern,schlafapnoe,gesund ab 60,senioren,gesundheit",
+ "estilo_imagem": "realistic photo, soft natural lighting, warm tones, highly detailed, documentary style",
+ "cenas": [
+  {
+   "titulo": "Ihr Herz in der Nacht",
+   "falas": [
+    {
+     "texto": "Viele Menschen über sechzig glauben, ihr Herz meldet sich nur tagsüber, beim Treppensteigen oder beim Spazierengehen.",
+     "imagens": [
+      {
+       "id": "g001",
+       "prompt": "senior man walking slowly up a staircase holding the handrail",
+       "rotulo": "Treppensteigen"
+      }
+     ]
+    },
+    {
+     "texto": "Doch oft kommen die ersten *Warnsignale* in der Nacht, wenn Sie schlafen und der Körper zur Ruhe kommt.",
+     "imagens": [
+      {
+       "id": "g002",
+       "prompt": "elderly woman sleeping in bed at night, dim blue moonlight through window",
+       "rotulo": "Nachts"
+      }
+     ]
+    },
+    {
+     "texto": "Und genau deshalb werden sie so häufig übersehen. Man schiebt es auf das Alter, auf das Abendessen oder auf einen schlechten Tag.",
+     "topicos": [
+      "Das Alter?",
+      "Das Essen?",
+      "Ein schlechter Tag?"
+     ]
+    },
+    {
+     "texto": "Heute zeige ich Ihnen *sieben* nächtliche Zeichen, die Ihr Herz Ihnen schicken kann.",
+     "imagens": [
+      {
+       "id": "g003",
+       "prompt": "anatomical illustration style photo of a human heart model on a doctor's desk",
+       "rotulo": "Ihr Herz"
+      }
+     ]
+    },
+    {
+     "texto": "Wichtig vorab: Dieses Video ersetzt keinen Arztbesuch. Bei Brustschmerzen oder akuter Atemnot rufen Sie sofort die *112*.",
+     "topicos": [
+      "Kein Ersatz für den Arzt",
+      "Notfall: 112"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Warum gerade nachts?",
+   "falas": [
+    {
+     "texto": "Aber warum zeigen sich so viele Herzprobleme ausgerechnet *nachts*?",
+     "imagens": [
+      {
+       "id": "g044",
+       "prompt": "night sky over a quiet german village with a few lit windows",
+       "rotulo": "Warum nachts?"
+      }
+     ]
+    },
+    {
+     "texto": "Wenn Sie sich hinlegen, verteilt sich das Blut im Körper neu. Mehr Blut fließt zurück zum Herzen, und das Herz muss *mehr Arbeit* leisten.",
+     "imagens": [
+      {
+       "id": "g045",
+       "prompt": "anatomical model of the human heart and blood vessels on a table, educational",
+       "rotulo": "Mehr Arbeit"
+      }
+     ]
+    },
+    {
+     "texto": "Ein gesundes Herz schafft das mühelos. Ein geschwächtes Herz kommt dabei schnell an seine Grenzen.",
+     "topicos": [
+      "Gesundes Herz: kein Problem",
+      "Schwaches Herz: Überlastung"
+     ]
+    },
+    {
+     "texto": "Dazu kommt: In den frühen Morgenstunden steigen Blutdruck und Stresshormone an. Deshalb passieren viele Herzinfarkte in den frühen Morgenstunden.",
+     "imagens": [
+      {
+       "id": "g046",
+       "prompt": "bedroom at dawn with first light through curtains, clock on nightstand showing early morning",
+       "rotulo": "Früher Morgen"
+      }
+     ]
+    },
+    {
+     "texto": "Achten Sie also besonders auf das, was Ihr Körper Ihnen in der Nacht sagt.",
+     "imagens": [
+      {
+       "id": "g047",
+       "prompt": "close-up of an elderly hand resting on a blanket at night",
+       "rotulo": "Hören Sie hin"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "1. Atemnot im Liegen",
+   "falas": [
+    {
+     "texto": "Das erste Zeichen: Sie bekommen schlechter Luft, sobald Sie sich *flach hinlegen*.",
+     "imagens": [
+      {
+       "id": "g004",
+       "prompt": "senior man lying flat in bed looking uncomfortable, hand on chest, night",
+       "rotulo": "Flach liegen"
+      }
+     ]
+    },
+    {
+     "texto": "Viele merken gar nicht, dass sie mit der Zeit immer mehr Kissen brauchen, um gut zu schlafen.",
+     "imagens": [
+      {
+       "id": "g005",
+       "prompt": "bed with three stacked pillows propped up high",
+       "rotulo": "Mehr Kissen"
+      }
+     ]
+    },
+    {
+     "texto": "Ärzte fragen deshalb ganz gezielt: Mit wie vielen Kissen schlafen Sie?",
+     "imagens": [
+      {
+       "id": "g006",
+       "prompt": "doctor talking with an elderly patient in a bright consultation room",
+       "rotulo": "Die Frage des Arztes"
+      }
+     ]
+    },
+    {
+     "texto": "Wenn das Herz schwächer pumpt, sammelt sich im Liegen Flüssigkeit in der *Lunge*. Aufrecht sitzen bringt dann Erleichterung.",
+     "topicos": [
+      "Schwaches Herz",
+      "Wasser in der Lunge",
+      "Aufsetzen hilft"
+     ]
+    },
+    {
+     "texto": "Das kann ein frühes Zeichen einer *Herzschwäche* sein. Sprechen Sie Ihren Hausarzt darauf an.",
+     "imagens": [
+      {
+       "id": "g007",
+       "prompt": "stethoscope lying on a medical file on a desk",
+       "rotulo": "Herzschwäche"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "2. Plötzliches Aufwachen mit Luftnot",
+   "falas": [
+    {
+     "texto": "Das zweite Zeichen ist ähnlich, aber noch deutlicher: Sie *wachen plötzlich auf* und ringen nach Luft.",
+     "imagens": [
+      {
+       "id": "g008",
+       "prompt": "elderly woman suddenly sitting up in bed at night gasping, dark bedroom",
+       "rotulo": "Plötzlich wach"
+      }
+     ]
+    },
+    {
+     "texto": "Oft passiert das ein oder zwei Stunden nach dem Einschlafen.",
+     "imagens": [
+      {
+       "id": "g009",
+       "prompt": "digital alarm clock showing 2:17 glowing red on a nightstand",
+       "rotulo": "Nach 1–2 Stunden"
+      }
+     ]
+    },
+    {
+     "texto": "Viele gehen dann zum Fenster, öffnen es und atmen tief durch. Nach einigen Minuten wird es besser.",
+     "imagens": [
+      {
+       "id": "g010",
+       "prompt": "senior man standing at an open window at night breathing fresh air",
+       "rotulo": "Ans Fenster"
+      }
+     ]
+    },
+    {
+     "texto": "Weil es vorbeigeht, nimmt man es nicht ernst. Doch genau das ist ein typisches Warnsignal für das Herz.",
+     "topicos": [
+      "Geht vorbei",
+      "Kommt wieder",
+      "Typisches Warnsignal"
+     ]
+    },
+    {
+     "texto": "Wenn Ihnen das öfter passiert, gehört das unbedingt in die *Arztpraxis*.",
+     "imagens": [
+      {
+       "id": "g011",
+       "prompt": "exterior of a friendly family doctor practice in a german town",
+       "rotulo": "Arztpraxis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "3. Häufiges Wasserlassen in der Nacht",
+   "falas": [
+    {
+     "texto": "Drittens: Sie müssen nachts *immer öfter* zur Toilette.",
+     "imagens": [
+      {
+       "id": "g012",
+       "prompt": "elderly man walking to the bathroom in a dark hallway at night",
+       "rotulo": "Nachts zur Toilette"
+      }
+     ]
+    },
+    {
+     "texto": "Die meisten denken sofort an die Blase oder die Prostata. Und oft stimmt das auch.",
+     "imagens": [
+      {
+       "id": "g013",
+       "prompt": "senior man sitting on edge of bed at night looking tired",
+       "rotulo": "Die Blase?"
+      }
+     ]
+    },
+    {
+     "texto": "Aber es gibt einen zweiten Grund: Tagsüber sammelt sich Wasser in den Beinen. Wenn Sie liegen, fließt es zurück, und die Nieren scheiden es aus.",
+     "imagens": [
+      {
+       "id": "g014",
+       "prompt": "close-up of swollen ankles of an elderly person sitting on a sofa",
+       "rotulo": "Wasser in den Beinen"
+      }
+     ]
+    },
+    {
+     "texto": "Besonders aufmerksam sollten Sie sein, wenn gleichzeitig Ihre *Knöchel* abends geschwollen sind.",
+     "topicos": [
+      "Nächtliches Wasserlassen",
+      "Geschwollene Knöchel",
+      "Zusammen: zum Arzt"
+     ]
+    },
+    {
+     "texto": "Ein einfacher Test: Drücken Sie abends mit dem Finger auf das Schienbein. Bleibt eine *Delle*, sagen Sie es Ihrem Arzt.",
+     "imagens": [
+      {
+       "id": "g015",
+       "prompt": "finger pressing on the shin of an elderly person leaving a small dent",
+       "rotulo": "Der Dellen-Test"
+      }
+     ]
+    },
+    {
+     "texto": "Und trinken Sie trotzdem genug am Tag. Wer abends weniger trinkt, sollte das tagsüber ausgleichen.",
+     "imagens": [
+      {
+       "id": "g052",
+       "prompt": "glass of water and a carafe on a sunny kitchen table",
+       "rotulo": "Genug trinken"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "4. Herzrasen und Herzstolpern",
+   "falas": [
+    {
+     "texto": "Das vierte Zeichen spüren Sie direkt in der Brust: Ihr Herz *rast* oder stolpert, obwohl Sie ruhig im Bett liegen.",
+     "imagens": [
+      {
+       "id": "g016",
+       "prompt": "senior woman lying in bed at night with hand on her chest, worried",
+       "rotulo": "Herzrasen"
+      }
+     ]
+    },
+    {
+     "texto": "Manche beschreiben es wie ein Flattern, andere wie einen Aussetzer und dann einen harten Schlag.",
+     "topicos": [
+      "Flattern",
+      "Aussetzer",
+      "Harter Schlag"
+     ]
+    },
+    {
+     "texto": "Dahinter kann *Vorhofflimmern* stecken, die häufigste Herzrhythmusstörung im Alter.",
+     "imagens": [
+      {
+       "id": "g017",
+       "prompt": "ecg monitor showing an irregular heart rhythm in a hospital",
+       "rotulo": "Vorhofflimmern"
+      }
+     ]
+    },
+    {
+     "texto": "Viele Betroffene merken es übrigens gar nicht. Manchmal entdeckt man es nur zufällig, zum Beispiel mit einem Blutdruckmessgerät, das einen unregelmäßigen Puls anzeigt.",
+     "imagens": [
+      {
+       "id": "g051",
+       "prompt": "digital blood pressure monitor display showing an irregular heartbeat symbol",
+       "rotulo": "Unregelmäßiger Puls"
+      }
+     ]
+    },
+    {
+     "texto": "Das Tückische: Vorhofflimmern erhöht das Risiko für einen *Schlaganfall* deutlich.",
+     "imagens": [
+      {
+       "id": "g018",
+       "prompt": "brain mri scan images on a lightbox in a hospital",
+       "rotulo": "Schlaganfall-Risiko"
+      }
+     ]
+    },
+    {
+     "texto": "Notieren Sie, wann es passiert und wie lange es dauert. Ein Langzeit-EKG kann dann Klarheit bringen.",
+     "imagens": [
+      {
+       "id": "g019",
+       "prompt": "elderly man wearing a small portable holter ecg monitor on his chest",
+       "rotulo": "Langzeit-EKG"
+      },
+      {
+       "id": "g020",
+       "prompt": "notebook with handwritten notes and a pen on a nightstand",
+       "rotulo": "Notizen machen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "5. Lautes Schnarchen mit Atemaussetzern",
+   "falas": [
+    {
+     "texto": "Fünftens: lautes Schnarchen mit kurzen *Atemaussetzern*. Das merken oft nicht Sie selbst, sondern Ihr Partner.",
+     "imagens": [
+      {
+       "id": "g021",
+       "prompt": "elderly couple in bed at night, wife awake looking at snoring husband",
+       "rotulo": "Der Partner merkt es"
+      }
+     ]
+    },
+    {
+     "texto": "Das nennt man *Schlafapnoe*. Der Atem stoppt für Sekunden, der Sauerstoff sinkt, und das Herz gerät unter Stress.",
+     "topicos": [
+      "Atem stoppt",
+      "Sauerstoff sinkt",
+      "Herz unter Stress"
+     ]
+    },
+    {
+     "texto": "Auf Dauer kann das den Blutdruck erhöhen und Herzrhythmusstörungen begünstigen.",
+     "imagens": [
+      {
+       "id": "g022",
+       "prompt": "blood pressure monitor cuff on the arm of a senior showing high reading",
+       "rotulo": "Bluthochdruck"
+      }
+     ]
+    },
+    {
+     "texto": "Typisch ist auch eine starke *Müdigkeit* am Tag, obwohl Sie lange geschlafen haben.",
+     "imagens": [
+      {
+       "id": "g023",
+       "prompt": "senior man dozing off in an armchair in the afternoon",
+       "rotulo": "Müde am Tag"
+      }
+     ]
+    },
+    {
+     "texto": "Die gute Nachricht: Schlafapnoe lässt sich gut behandeln, zum Beispiel mit einer Atemmaske in der Nacht.",
+     "imagens": [
+      {
+       "id": "g024",
+       "prompt": "senior person sleeping peacefully with a cpap mask",
+       "rotulo": "Atemmaske"
+      }
+     ]
+    },
+    {
+     "texto": "Wenn Ihr Partner solche Pausen bemerkt, sprechen Sie Ihren Arzt auf eine Untersuchung im *Schlaflabor* an.",
+     "imagens": [
+      {
+       "id": "g053",
+       "prompt": "sleep laboratory room with bed and monitoring equipment",
+       "rotulo": "Schlaflabor"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "6. Nächtlicher Husten",
+   "falas": [
+    {
+     "texto": "Das sechste Zeichen wird fast immer verwechselt: ein trockener *Husten*, der nur im Liegen kommt.",
+     "imagens": [
+      {
+       "id": "g025",
+       "prompt": "elderly woman coughing in bed at night holding a tissue",
+       "rotulo": "Husten im Liegen"
+      }
+     ]
+    },
+    {
+     "texto": "Man denkt an eine Erkältung oder an Allergien. Aber wenn der Husten wochenlang bleibt und tagsüber verschwindet, sollte man genauer hinschauen.",
+     "topicos": [
+      "Nur nachts",
+      "Wochenlang",
+      "Tagsüber weg"
+     ]
+    },
+    {
+     "texto": "Auch hier kann Flüssigkeit in der Lunge die Ursache sein, weil das Herz nicht mehr kräftig genug pumpt.",
+     "imagens": [
+      {
+       "id": "g026",
+       "prompt": "chest x-ray image on a doctor's monitor",
+       "rotulo": "Röntgenbild"
+      }
+     ]
+    },
+    {
+     "texto": "Und noch etwas: Manche *Blutdruckmedikamente* können ebenfalls trockenen Husten auslösen. Setzen Sie sie aber nie selbst ab.",
+     "imagens": [
+      {
+       "id": "g027",
+       "prompt": "weekly pill organizer box with various tablets on a kitchen table",
+       "rotulo": "Medikamente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "7. Schmerzen und Schweiß in der Nacht",
+   "falas": [
+    {
+     "texto": "Das siebte Zeichen ist das *ernsteste*: Druck oder Schmerz in der Brust, der Sie nachts weckt.",
+     "imagens": [
+      {
+       "id": "g028",
+       "prompt": "senior man sitting on the edge of his bed at night clutching his chest in pain",
+       "rotulo": "Brustschmerz"
+      }
+     ]
+    },
+    {
+     "texto": "Besonders, wenn er in den Arm, den Kiefer oder den Rücken ausstrahlt, oder wenn Sie plötzlich *kalter Schweiß* überkommt.",
+     "imagens": [
+      {
+       "id": "g029",
+       "prompt": "close-up of sweat on the forehead of an elderly man at night",
+       "rotulo": "Kalter Schweiß"
+      }
+     ],
+     "topicos": [
+      "Arm",
+      "Kiefer",
+      "Rücken"
+     ]
+    },
+    {
+     "texto": "Bei Frauen sind die Zeichen oft leiser: Übelkeit, Unruhe, Atemnot oder eine ungewohnte Erschöpfung.",
+     "imagens": [
+      {
+       "id": "g030",
+       "prompt": "senior woman sitting in bed at night looking exhausted and nauseous",
+       "rotulo": "Bei Frauen anders"
+      }
+     ]
+    },
+    {
+     "texto": "In diesem Fall gilt: Nicht abwarten, nicht bis zum Morgen warten. Rufen Sie sofort den *Notruf 112*.",
+     "imagens": [
+      {
+       "id": "g031",
+       "prompt": "hand holding a phone dialing emergency number, close-up",
+       "rotulo": "Sofort 112"
+      },
+      {
+       "id": "g032",
+       "prompt": "ambulance with flashing lights on a german street at night",
+       "rotulo": "Rettungsdienst"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Wann Sie sofort handeln müssen",
+   "falas": [
+    {
+     "texto": "Lassen Sie uns noch einmal klar zusammenfassen, wann Sie *sofort* handeln müssen.",
+     "imagens": [
+      {
+       "id": "g048",
+       "prompt": "telephone on a table next to a note with an emergency number, close-up",
+       "rotulo": "Sofort handeln"
+      }
+     ]
+    },
+    {
+     "texto": "Brustschmerz, der länger als fünf Minuten anhält. Plötzliche, starke Atemnot. Oder ein Herzschlag, der rast und nicht mehr aufhört.",
+     "topicos": [
+      "Brustschmerz über 5 Minuten",
+      "Starke Atemnot",
+      "Herzrasen ohne Ende"
+     ]
+    },
+    {
+     "texto": "Dazu kommen Zeichen eines *Schlaganfalls*: ein hängender Mundwinkel, ein schwacher Arm oder plötzlich verwaschene Sprache.",
+     "imagens": [
+      {
+       "id": "g049",
+       "prompt": "concerned elderly woman helping her husband who looks unwell on the sofa",
+       "rotulo": "Schlaganfall-Zeichen"
+      }
+     ]
+    },
+    {
+     "texto": "In all diesen Fällen: keine Zeit verlieren, nicht selbst ins Krankenhaus fahren, sondern die 112 rufen.",
+     "imagens": [
+      {
+       "id": "g050",
+       "prompt": "paramedics carrying a stretcher toward a house at night with ambulance lights",
+       "rotulo": "112 rufen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Was Sie jetzt tun können",
+   "falas": [
+    {
+     "texto": "Was können Sie also tun? Erstens: Führen Sie für zwei Wochen ein kleines *Nacht-Tagebuch*.",
+     "imagens": [
+      {
+       "id": "g033",
+       "prompt": "senior woman writing in a small diary at a kitchen table in the morning",
+       "rotulo": "Nacht-Tagebuch"
+      }
+     ]
+    },
+    {
+     "texto": "Schreiben Sie auf, wie oft Sie aufwachen, ob Sie Luftnot hatten und wie viele Kissen Sie brauchen.",
+     "topicos": [
+      "Wie oft wach?",
+      "Luftnot?",
+      "Wie viele Kissen?"
+     ]
+    },
+    {
+     "texto": "Zweitens: Messen Sie morgens Ihren Blutdruck und Ihren Puls, am besten jeden Tag zur gleichen Zeit.",
+     "imagens": [
+      {
+       "id": "g034",
+       "prompt": "senior man measuring his blood pressure at home in the morning",
+       "rotulo": "Blutdruck messen"
+      }
+     ]
+    },
+    {
+     "texto": "Drittens: Wiegen Sie sich regelmäßig. Wenn Sie in wenigen Tagen plötzlich zwei Kilo mehr wiegen, kann das *Wasser* sein.",
+     "imagens": [
+      {
+       "id": "g035",
+       "prompt": "bare feet of an elderly person standing on a bathroom scale",
+       "rotulo": "Gewicht prüfen"
+      }
+     ]
+    },
+    {
+     "texto": "Und nehmen Sie diese Notizen mit zu Ihrem Hausarzt. Damit kann er viel schneller erkennen, was los ist.",
+     "imagens": [
+      {
+       "id": "g036",
+       "prompt": "elderly patient showing notes to a doctor in a consultation room",
+       "rotulo": "Zum Hausarzt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Gut für Ihr Herz",
+   "falas": [
+    {
+     "texto": "Und zum Schluss die gute Nachricht: Sie können viel für Ihr Herz tun, auch mit über sechzig.",
+     "imagens": [
+      {
+       "id": "g037",
+       "prompt": "happy active senior couple walking in a park in autumn",
+       "rotulo": "Aktiv bleiben"
+      }
+     ]
+    },
+    {
+     "texto": "Tägliche Bewegung, schon dreißig Minuten Spazierengehen, stärkt das Herz messbar.",
+     "imagens": [
+      {
+       "id": "g038",
+       "prompt": "senior woman walking briskly on a forest path",
+       "rotulo": "30 Minuten gehen"
+      }
+     ]
+    },
+    {
+     "texto": "Weniger Salz, mehr Gemüse, und abends keine schweren Mahlzeiten mehr kurz vor dem Schlafengehen.",
+     "imagens": [
+      {
+       "id": "g039",
+       "prompt": "healthy mediterranean dinner plate with vegetables and fish",
+       "rotulo": "Leichtes Abendessen"
+      }
+     ],
+     "topicos": [
+      "Weniger Salz",
+      "Mehr Gemüse",
+      "Leicht am Abend"
+     ]
+    },
+    {
+     "texto": "Und ganz wichtig: Nehmen Sie Ihre Medikamente regelmäßig, auch wenn Sie sich gut fühlen.",
+     "imagens": [
+      {
+       "id": "g040",
+       "prompt": "senior man taking a pill with a glass of water in the kitchen",
+       "rotulo": "Medikamente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Ihr Herz spricht mit Ihnen",
+   "falas": [
+    {
+     "texto": "Ihr Herz spricht mit Ihnen, oft *leise*, und oft in der Nacht.",
+     "imagens": [
+      {
+       "id": "g041",
+       "prompt": "peaceful bedroom at night with soft moonlight, empty bed",
+       "rotulo": "Hören Sie hin"
+      }
+     ]
+    },
+    {
+     "texto": "Wenn Sie eines dieser Zeichen bei sich bemerken, warten Sie nicht. Je früher man es erkennt, desto besser lässt es sich behandeln.",
+     "topicos": [
+      "Nicht warten",
+      "Früh erkennen",
+      "Gut behandelbar"
+     ]
+    },
+    {
+     "texto": "Welches dieser Zeichen kennen Sie? Schreiben Sie es gern in die Kommentare.",
+     "imagens": [
+      {
+       "id": "g042",
+       "prompt": "elderly woman using a tablet on the sofa, smiling",
+       "rotulo": "Kommentieren"
+      }
+     ]
+    },
+    {
+     "texto": "Und wenn Ihnen dieses Video geholfen hat, *abonnieren* Sie Gesund ab 60. Teilen Sie es mit jemandem, dem Sie es wünschen. Bleiben Sie gesund.",
+     "imagens": [
+      {
+       "id": "g043",
+       "prompt": "smiling senior couple waving at the camera at home",
+       "rotulo": "Bleiben Sie gesund"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

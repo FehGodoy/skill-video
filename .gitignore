@@ -1,6 +1,10 @@
 .env
 *.env
 
+# credenciais do YouTube (nunca no git)
+youtube/client_secret*.json
+youtube/tokens/
+
 # arquivos gerados (pesados / regeneráveis)
 **/tmp/
 **/audio/
@@ -8,3 +12,9 @@
 *.mp4
 *.wav
 __pycache__/
+
+# imagens geradas e arquivos do Kaggle (regeneráveis, pesados)
+videos/*/imagens/
+videos/*/imagens_teste/
+videos/*/kaggle/
+videos/*/render.log
