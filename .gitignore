@@ -1,0 +1,10 @@
+.env
+*.env
+
+# arquivos gerados (pesados / regeneráveis)
+**/tmp/
+**/audio/
+*.zip
+*.mp4
+*.wav
+__pycache__/

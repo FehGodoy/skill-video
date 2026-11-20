@@ -1,0 +1,32 @@
+{
+  "canal": "Honda Deep Dive",
+  "voice_id": "47c38ca4-5f35-497b-b1a3-415245fb35e1",
+  "language": "en",
+  "cenas": [
+    {
+      "imagem": "001",
+      "texto": "In 1972, Honda took a big risk with a tiny car. The first Civic was small, simple, and incredibly efficient. And it changed how the world saw Japanese cars.",
+      "duracao": 9.2
+    },
+    {
+      "imagem": "002",
+      "texto": "By the late eighties, the CR-X turned that efficiency into pure fun. Light, nimble, and made for twisting mountain roads.",
+      "duracao": 6.41
+    },
+    {
+      "imagem": "003",
+      "texto": "Then, in 1990, came the NSX. A mid-engine supercar, fine-tuned with help from Ayrton Senna, proving Honda could take on Ferrari.",
+      "duracao": 8.45
+    },
+    {
+      "imagem": "004",
+      "texto": "Today, the Civic Type R carries that spirit, with track-bred handling and a rear wing it wears with pride.",
+      "duracao": 5.9
+    },
+    {
+      "imagem": "005",
+      "texto": "And the S2000? A roadster that revved to nine thousand R P M. Subscribe to Honda Deep Dive for the story behind every legend.",
+      "duracao": 8.41
+    }
+  ]
+}

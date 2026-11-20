@@ -1,0 +1,188 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Protótipo Cartoon</title>
+<style>
+html,body{margin:0;height:100%;background:#fbefe0;overflow:hidden;font-family:system-ui,sans-serif}
+svg{width:100vw;height:100vh;display:block}
+.bob{animation:bob 2.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-7px)}}
+.breath{transform-box:fill-box;transform-origin:50% 100%;animation:breath 2.6s ease-in-out infinite}
+@keyframes breath{50%{transform:scaleY(1.015)}}
+.blink{transform-box:fill-box;transform-origin:center;animation:blink 4.2s infinite}
+@keyframes blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.08)}}
+.brow{transform-box:fill-box;transform-origin:center;animation:brow 3s ease-in-out infinite}
+@keyframes brow{0%,60%,100%{transform:translateY(0)}70%,85%{transform:translateY(-6px)}}
+.talk{transform-box:fill-box;transform-origin:50% 20%;animation:talk .26s ease-in-out infinite alternate}
+@keyframes talk{from{transform:scaleY(.35)}to{transform:scaleY(1.1)}}
+.gesture{transform-box:fill-box;transform-origin:50% 6%;animation:gest 3.2s ease-in-out infinite}
+@keyframes gest{0%,100%{transform:rotate(-68deg)}50%{transform:rotate(-92deg)}}
+.headtilt{transform-box:fill-box;transform-origin:50% 90%;animation:tilt 5s ease-in-out infinite}
+@keyframes tilt{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(3deg)}}
+.beat{transform-box:fill-box;transform-origin:center;animation:beat .9s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}14%{transform:scale(1.1,1.08)}28%{transform:scale(.97)}42%{transform:scale(1.05)}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring .9s ease-out infinite;fill:none;stroke:#e63946;stroke-width:5}
+@keyframes ring{from{transform:scale(.7);opacity:.6}to{transform:scale(1.5);opacity:0}}
+.wave{transform-box:fill-box;transform-origin:95% 90%;animation:wave .55s ease-in-out infinite alternate}
+@keyframes wave{to{transform:rotate(22deg)}}
+.pop{animation:pop .45s cubic-bezier(.3,1.6,.5,1)}
+@keyframes pop{from{transform:scale(.7);opacity:0}}
+.float{animation:fl 6s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(-14px)}}
+</style></head><body>
+<svg viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid meet">
+<defs>
+ <!-- contorno "nanquim": mais grosso embaixo/direita, como traço desenhado à mão -->
+ <filter id="ink" x="-20%" y="-20%" width="140%" height="140%">
+  <feMorphology in="SourceAlpha" operator="dilate" radius="2.6" result="a"/>
+  <feMorphology in="SourceAlpha" operator="dilate" radius="3.4" result="b0"/><feOffset in="b0" dx="2.2" dy="3" result="b"/>
+  <feMerge result="m"><feMergeNode in="a"/><feMergeNode in="b"/></feMerge>
+  <feFlood flood-color="#2a2238"/><feComposite in2="m" operator="in" result="line"/>
+  <feMerge><feMergeNode in="line"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+ <radialGradient id="skin" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#ffe0c4"/><stop offset=".6" stop-color="#f7c49d"/><stop offset="1" stop-color="#e9a77f"/></radialGradient>
+ <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#eef2f7"/><stop offset="1" stop-color="#cfd8e4"/></linearGradient>
+ <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a5634"/><stop offset="1" stop-color="#4e2c18"/></linearGradient>
+ <linearGradient id="pants" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b4766"/><stop offset="1" stop-color="#262e47"/></linearGradient>
+ <radialGradient id="iris" cx="40%" cy="35%"><stop offset="0" stop-color="#7fb2ff"/><stop offset="1" stop-color="#2c5fb8"/></radialGradient>
+ <radialGradient id="heart" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#ff7a85"/><stop offset=".55" stop-color="#e63946"/><stop offset="1" stop-color="#a81e30"/></radialGradient>
+ <radialGradient id="blush"><stop offset="0" stop-color="#ff8f8f" stop-opacity=".55"/><stop offset="1" stop-color="#ff8f8f" stop-opacity="0"/></radialGradient>
+ <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#fff7ec"/><stop offset="1" stop-color="#f6dfc4"/></radialGradient>
+ <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="14" cy="14" r="2" fill="#e8cfae"/></pattern>
+ <clipPath id="faceClip"><path d="M-82 70 Q-86 -10 0 -18 Q86 -10 82 70 Q80 150 0 168 Q-80 150 -82 70Z"/></clipPath>
+ <clipPath id="heartClip"><path d="M0 150 C-160 50 -200 -60 -130 -115 C-70 -160 -15 -120 0 -80 C15 -120 70 -160 130 -115 C200 -60 160 50 0 150Z"/></clipPath>
+</defs>
+
+<!-- fundo -->
+<rect width="1280" height="720" fill="url(#bg)"/><rect width="1280" height="590" fill="url(#dots)" opacity=".6"/>
+<g class="float"><circle cx="1130" cy="110" r="150" fill="#ffd9b3" opacity=".7"/></g>
+<g class="float" style="animation-delay:-3s"><circle cx="120" cy="560" r="200" fill="#d7efe0" opacity=".8"/></g>
+<g opacity=".9"><path d="M1040 470 l0 -60 m-30 30 l60 0" stroke="#9ad1c4" stroke-width="18" stroke-linecap="round"/>
+<path d="M600 120 l0 -36 m-18 18 l36 0" stroke="#f4b6b6" stroke-width="12" stroke-linecap="round"/></g>
+<path d="M0 590 Q640 570 1280 590 L1280 720 L0 720Z" fill="#efd5b6"/>
+<path d="M0 590 Q640 570 1280 590" fill="none" stroke="#e2c29d" stroke-width="4"/>
+<g transform="translate(40,36)"><rect width="340" height="54" rx="27" fill="#2a9d8f"/><rect y="4" width="340" height="54" rx="27" fill="#1f7a6f" opacity=".0"/>
+ <text x="170" y="35" text-anchor="middle" fill="#fff" font-weight="900" font-size="22">Gesundheit kurz erklärt</text></g>
+
+<!-- ===== DOKTOR ===== -->
+<ellipse cx="385" cy="604" rx="130" ry="16" fill="#c9a882" opacity=".55" filter="url(#soft)"/>
+<g transform="translate(385,92)"><g class="bob">
+ <!-- pernas e sapatos -->
+ <g filter="url(#ink)">
+  <path d="M-58 420 L-14 420 L-16 498 L-56 498Z" fill="url(#pants)"/><path d="M14 420 L58 420 L56 498 L16 498Z" fill="url(#pants)"/>
+  <path d="M-78 512 Q-78 490 -54 490 L-14 490 Q-8 512 -14 516 L-72 516 Q-78 516 -78 512Z" fill="#3a2a22"/>
+  <path d="M78 512 Q78 490 54 490 L14 490 Q8 512 14 516 L72 516 Q78 516 78 512Z" fill="#3a2a22"/>
+ </g>
+ <path d="M-66 496 q14 -4 26 0" stroke="#fff" stroke-width="4" opacity=".35" stroke-linecap="round" fill="none"/>
+ <!-- corpo -->
+ <g class="breath">
+ <g filter="url(#ink)">
+  <path d="M-112 448 Q-122 300 -86 236 Q-60 206 -30 204 L30 204 Q60 206 86 236 Q122 300 112 448 Q0 462 -112 448Z" fill="url(#coat)"/>
+ </g>
+ <path d="M-30 206 L0 290 L30 206Z" fill="#6fb3ea"/><path d="M-8 222 L8 222 L12 300 L0 318 L-12 300Z" fill="#e63946"/>
+ <g filter="url(#ink)"><path d="M-30 204 L-6 300 L-60 250 L-48 214Z" fill="#fff"/><path d="M30 204 L6 300 L60 250 L48 214Z" fill="#fff"/></g>
+ <path d="M60 330 l40 0 l-2 40 l-36 0Z" fill="none" stroke="#b9c4d3" stroke-width="4"/>
+ <rect x="68" y="318" width="6" height="22" rx="3" fill="#2a9d8f"/><rect x="80" y="314" width="6" height="26" rx="3" fill="#e63946"/>
+ <path d="M-80 300 Q-60 280 -70 250" stroke="#cfd8e4" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <path d="M90 420 Q100 360 96 300" stroke="#cfd8e4" stroke-width="8" fill="none" stroke-linecap="round" opacity=".8"/>
+ <!-- estetoscópio -->
+ <path d="M-40 212 Q-66 320 -6 340 Q40 330 38 212" fill="none" stroke="#2a2238" stroke-width="8" stroke-linecap="round"/>
+ <path d="M-40 212 Q-66 320 -6 340 Q40 330 38 212" fill="none" stroke="#5c6680" stroke-width="3" stroke-linecap="round"/>
+ <g filter="url(#ink)"><circle cx="-6" cy="352" r="16" fill="#c7ced9"/></g><circle cx="-10" cy="347" r="5" fill="#fff"/>
+ </g>
+ <!-- braço esquerdo -->
+ <g filter="url(#ink)"><path d="M-92 240 Q-140 300 -128 410 L-96 412 Q-100 320 -70 270Z" fill="url(#coat)"/>
+  <path d="M-134 418 Q-138 444 -112 446 Q-90 444 -94 416 Q-112 406 -134 418Z" fill="url(#skin)"/></g>
+ <!-- braço que aponta -->
+ <g class="gesture"><g filter="url(#ink)">
+  <path d="M86 236 Q112 240 118 290 L122 372 L88 374 L82 300Z" fill="url(#coat)"/>
+  <path d="M84 376 Q80 410 104 414 Q128 412 124 378Z" fill="url(#skin)"/>
+  <path d="M100 410 Q98 438 106 440 Q114 438 112 410Z" fill="url(#skin)"/>
+ </g></g>
+ <!-- cabeça -->
+ <g class="headtilt">
+  <g filter="url(#ink)"><path d="M-22 178 L22 178 L26 212 L-26 212Z" fill="#e9a77f"/></g>
+  <g transform="translate(0,20)">
+   <g filter="url(#ink)">
+    <ellipse cx="-86" cy="78" rx="18" ry="24" fill="url(#skin)"/><ellipse cx="86" cy="78" rx="18" ry="24" fill="url(#skin)"/>
+   </g>
+   <path d="M-90 70 q6 8 0 18" stroke="#d98f6a" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M90 70 q-6 8 0 18" stroke="#d98f6a" stroke-width="4" fill="none" stroke-linecap="round"/>
+   <g filter="url(#ink)"><path d="M-82 70 Q-86 -10 0 -18 Q86 -10 82 70 Q80 150 0 168 Q-80 150 -82 70Z" fill="url(#skin)"/></g>
+   <g clip-path="url(#faceClip)">
+    <path d="M-90 10 Q0 50 90 10 L90 -30 L-90 -30Z" fill="#d48a62" opacity=".45"/>
+    <path d="M40 150 Q80 110 86 60 L100 60 L100 180 L30 180Z" fill="#d48a62" opacity=".3"/>
+   </g>
+   <ellipse cx="-50" cy="108" rx="24" ry="14" fill="url(#blush)"/><ellipse cx="50" cy="108" rx="24" ry="14" fill="url(#blush)"/>
+   <!-- olhos -->
+   <g class="blink">
+    <ellipse cx="-34" cy="76" rx="17" ry="20" fill="#fff"/><ellipse cx="34" cy="76" rx="17" ry="20" fill="#fff"/>
+    <circle cx="-30" cy="79" r="11" fill="url(#iris)"/><circle cx="38" cy="79" r="11" fill="url(#iris)"/>
+    <circle cx="-30" cy="80" r="5.5" fill="#1b1530"/><circle cx="38" cy="80" r="5.5" fill="#1b1530"/>
+    <circle cx="-26" cy="74" r="4" fill="#fff"/><circle cx="42" cy="74" r="4" fill="#fff"/><circle cx="-33" cy="84" r="1.8" fill="#fff"/><circle cx="35" cy="84" r="1.8" fill="#fff"/>
+    <path d="M-51 70 Q-34 52 -17 70" fill="none" stroke="#2a2238" stroke-width="4" stroke-linecap="round"/><path d="M17 70 Q34 52 51 70" fill="none" stroke="#2a2238" stroke-width="4" stroke-linecap="round"/>
+   </g>
+   <!-- óculos -->
+   <circle cx="-34" cy="78" r="28" fill="#cfe8ff" fill-opacity=".18" stroke="#2a2238" stroke-width="5"/><circle cx="34" cy="78" r="28" fill="#cfe8ff" fill-opacity=".18" stroke="#2a2238" stroke-width="5"/>
+   <path d="M-6 76 Q0 70 6 76" stroke="#2a2238" stroke-width="5" fill="none"/><path d="M-62 74 L-80 68 M62 74 L80 68" stroke="#2a2238" stroke-width="5"/>
+   <path d="M-50 62 L-40 56 M18 62 L28 56" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+   <!-- sobrancelhas (traço grosso-fino) -->
+   <g class="brow"><path d="M-58 40 Q-36 24 -12 34 Q-36 32 -58 46Z" fill="#4e2c18"/><path d="M58 40 Q36 24 12 34 Q36 32 58 46Z" fill="#4e2c18"/></g>
+   <!-- nariz -->
+   <path d="M-4 92 Q-12 112 0 118 Q10 120 14 114" fill="none" stroke="#c97b56" stroke-width="5" stroke-linecap="round"/>
+   <circle cx="-2" cy="104" r="3" fill="#fff" opacity=".6"/>
+   <!-- boca -->
+   <g class="talk"><path d="M-26 132 Q0 128 26 132 Q24 160 0 162 Q-24 160 -26 132Z" fill="#6e1f2a" stroke="#2a2238" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-20 134 Q0 131 20 134 L18 141 Q0 139 -18 141Z" fill="#fff"/><ellipse cx="2" cy="153" rx="12" ry="6" fill="#ef6f7c"/></g>
+   <path d="M-34 132 q-6 -4 -8 2 M34 132 q6 -4 8 2" stroke="#c97b56" stroke-width="4" fill="none" stroke-linecap="round"/>
+   <!-- cabelo -->
+   <g filter="url(#ink)"><path d="M-88 66 Q-104 -6 -50 -34 Q-6 -58 46 -42 Q98 -26 92 40 Q86 20 70 10 Q60 30 30 22 Q42 6 30 -2 Q0 22 -40 16 Q-60 30 -70 56 Q-80 50 -88 66Z" fill="url(#hair)"/></g>
+   <path d="M-60 -16 Q-20 -40 30 -28" stroke="#b27a52" stroke-width="7" fill="none" stroke-linecap="round" opacity=".8"/>
+   <path d="M-70 10 Q-60 -10 -36 -16" stroke="#b27a52" stroke-width="5" fill="none" stroke-linecap="round" opacity=".6"/>
+   <path d="M40 -30 Q70 -20 78 6" stroke="#b27a52" stroke-width="5" fill="none" stroke-linecap="round" opacity=".6"/>
+  </g>
+ </g>
+</g></g>
+
+<!-- ===== HERZ ===== -->
+<ellipse cx="900" cy="604" rx="110" ry="14" fill="#c9a882" opacity=".55" filter="url(#soft)"/>
+<g transform="translate(900,340)">
+ <circle class="ring" cx="0" cy="0" r="150"/>
+ <g class="bob"><g class="beat">
+  <g filter="url(#ink)">
+   <path class="wave" d="M-148 0 Q-200 -10 -214 -64 L-196 -70 Q-184 -30 -140 -20Z" fill="#e63946"/>
+   <path d="M148 10 Q196 30 206 80 L188 86 Q178 48 140 32Z" fill="#e63946"/>
+  </g>
+  <g filter="url(#ink)"><circle cx="-214" cy="-80" r="20" fill="#fff"/><circle cx="200" cy="96" r="20" fill="#fff"/></g>
+  <path d="M-224 -86 q8 -6 16 0" stroke="#d6dbe3" stroke-width="3" fill="none"/>
+  <g filter="url(#ink)"><path d="M0 150 C-160 50 -200 -60 -130 -115 C-70 -160 -15 -120 0 -80 C15 -120 70 -160 130 -115 C200 -60 160 50 0 150Z" fill="url(#heart)"/></g>
+  <g clip-path="url(#heartClip)"><path d="M40 160 Q150 60 150 -60 L220 -60 L220 200Z" fill="#7d1022" opacity=".25"/></g>
+  <path d="M-118 -84 C-96 -112 -62 -110 -46 -90" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+  <circle cx="-128" cy="-56" r="7" fill="#fff" opacity=".7"/>
+  <path d="M-24 -96 q14 -16 28 0" fill="none" stroke="#a81e30" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+  <g class="blink">
+   <ellipse cx="-42" cy="-18" rx="24" ry="30" fill="#fff" stroke="#2a2238" stroke-width="5"/><ellipse cx="42" cy="-18" rx="24" ry="30" fill="#fff" stroke="#2a2238" stroke-width="5"/>
+   <circle cx="-36" cy="-12" r="13" fill="#1b1530"/><circle cx="48" cy="-12" r="13" fill="#1b1530"/>
+   <circle cx="-31" cy="-18" r="5" fill="#fff"/><circle cx="53" cy="-18" r="5" fill="#fff"/>
+  </g>
+  <path d="M-66 -58 Q-44 -70 -24 -60 M24 -60 Q44 -70 66 -58" stroke="#2a2238" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <ellipse cx="-80" cy="30" rx="22" ry="13" fill="#ff9fb0" opacity=".8"/><ellipse cx="80" cy="30" rx="22" ry="13" fill="#ff9fb0" opacity=".8"/>
+  <path d="M-30 26 Q0 66 30 26 Q0 40 -30 26Z" fill="#6e1f2a" stroke="#2a2238" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M-12 44 Q0 52 12 44" stroke="#ef6f7c" stroke-width="6" stroke-linecap="round" fill="none"/>
+ </g></g>
+</g>
+
+<!-- balão com contador -->
+<g transform="translate(900,110)"><g filter="url(#ink)"><path d="M-150 -42 H150 Q166 -42 166 -26 V22 Q166 38 150 38 H20 L0 60 L-14 38 H-150 Q-166 38 -166 22 V-26 Q-166 -42 -150 -42Z" fill="#fff"/></g>
+ <text id="num" x="0" y="14" text-anchor="middle" font-size="40" font-weight="900" fill="#e63946">0</text></g>
+
+<!-- legenda -->
+<g transform="translate(640,662)"><rect x="-480" y="-36" width="960" height="66" rx="18" fill="#2a2238"/>
+ <text id="sub" class="pop" x="0" y="9" text-anchor="middle" font-size="28" font-weight="800" fill="#fff"></text></g>
+</svg>
+<script>
+const lines=["Wusstest du das?","Dein Herz schlägt etwa 100.000 Mal am Tag.","Das sind rund 35 Millionen Schläge im Jahr!","Bewegung hält es stark – schon 30 Minuten täglich."];
+const sub=document.getElementById('sub'),num=document.getElementById('num');let i=0;
+function next(){sub.textContent=lines[i%lines.length];sub.classList.remove('pop');void sub.getBBox();sub.classList.add('pop');i++}
+next();setInterval(next,3000);
+const t0=performance.now();(function c(n){const p=((n-t0)%12000)/4000;const v=Math.round(Math.min(p,1)*100000);
+ num.textContent=v.toLocaleString('de-DE')+(p>=1?' ❤':'');requestAnimationFrame(c)})(t0);
+</script></body></html>
