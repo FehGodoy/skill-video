@@ -27,7 +27,8 @@ Os tokens ficam em `youtube/tokens/`, um por canal, também fora do git.
 python youtube/upload.py upload --canal honda --video honda-teste/honda_teste.mp4 --titulo "Honda Legends in 40 Seconds" --tags "honda,civic,nsx"
 ```
 
-O vídeo é marcado como conteúdo sintético (IA) e não destinado a crianças.
+O vídeo é marcado como não destinado a crianças. Não é marcado como conteúdo
+sintético (decisão do usuário); use `--marcar-ia` para marcar.
 
 ## Limites
 

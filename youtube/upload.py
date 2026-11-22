@@ -12,7 +12,7 @@ Arquivos (nunca vão para o git):
   youtube/client_secret.json      credencial OAuth do Google Cloud (tipo "App para computador")
   youtube/tokens/<canal>.json     token de cada canal, criado no comando `auth`
 """
-import argparse, pathlib, sys
+import argparse, json, pathlib, sys
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -66,7 +66,8 @@ def upload(a):
         "status": {
             "privacyStatus": "private",          # sempre privado: você aprova no Studio
             "selfDeclaredMadeForKids": False,
-            "containsSyntheticMedia": True,      # declara conteúdo gerado por IA
+            # decisão do usuário: não marcar como conteúdo sintético (pode ligar com --marcar-ia)
+            "containsSyntheticMedia": bool(getattr(a, "marcar_ia", False)),
         },
     }
     media = MediaFileUpload(a.video, chunksize=8 * 1024 * 1024, resumable=True)
@@ -77,9 +78,18 @@ def upload(a):
         if status:
             print(f"enviando... {int(status.progress() * 100)}%")
     vid = resp["id"]
+    # guarda o id ao lado do vídeo, para trocar a capa depois sem procurar
+    (pathlib.Path(a.video).parent / "youtube.json").write_text(
+        json.dumps({"canal": a.canal, "video_id": vid}), encoding="utf-8")
     if a.thumb:
         yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(a.thumb)).execute()
     print(f"OK ({cfg['nome']}, privado): https://studio.youtube.com/video/{vid}/edit")
+
+
+def trocar_capa(a):
+    yt = build("youtube", "v3", credentials=credenciais(a.canal))
+    yt.thumbnails().set(videoId=a.video_id, media_body=MediaFileUpload(a.thumb)).execute()
+    print(f"capa atualizada: https://studio.youtube.com/video/{a.video_id}/edit")
 
 
 def main():
@@ -90,10 +100,15 @@ def main():
     pu.add_argument("--video", required=True); pu.add_argument("--titulo", required=True)
     pu.add_argument("--descricao", default=""); pu.add_argument("--tags", default="")
     pu.add_argument("--thumb")
+    pu.add_argument("--marcar-ia", action="store_true", help="marca o vídeo como conteúdo alterado/sintético")
+    pt = sub.add_parser("capa"); pt.add_argument("--canal", choices=CANAIS, required=True)
+    pt.add_argument("--video-id", required=True); pt.add_argument("--thumb", required=True)
     a = p.parse_args()
     if a.cmd == "auth":
         credenciais(a.canal, autorizar=True)
         print(f"Canal '{CANAIS[a.canal]['nome']}' autorizado.")
+    elif a.cmd == "capa":
+        trocar_capa(a)
     else:
         upload(a)
 

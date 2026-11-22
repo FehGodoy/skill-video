@@ -1,0 +1,780 @@
+{
+ "canal": "honda",
+ "voice_id": "47c38ca4-5f35-497b-b1a3-415245fb35e1",
+ "language": "en",
+ "velocidade": 0.85,
+ "titulo": "Honda Recalls 810,000 Cars for Takata Airbags AGAIN: Civic, CR-V, Accord Owners Check Your VIN",
+ "descricao": "Honda just recalled 810,592 cars and SUVs in the US over Takata airbag inflators that could rupture, and a separate recall covers 635,000 Honda Pilot, Acura MDX and TLX models that can lose power steering assist. If you drive a 2012 or 2013 Civic or CR-V, a 2013 Accord, or a 2023 to 2025 Pilot, watch this before your next drive.\n\nIn this video we explain exactly which Honda and Acura models are included in the new Takata airbag recall, why airbags that were considered safe are now being replaced, which 14 states and territories are affected, what Honda says about injuries, how to check your VIN for open recalls in 30 seconds, what to do while you wait for parts, and the other Honda recalls you may have missed this year, including the power steering software recall, the tire repair kit recall and the 2025 Civic fuel pump recall.\n\n⏱️ CHAPTERS\n{capitulos}\n\n✅ IN THIS VIDEO\n• Honda and Toyota recall 1.6 million vehicles over Takata airbag inflators\n• Affected Hondas: 2013 Accord, 2012–2013 Civic, 2012–2013 CR-V, 2013 Acura ILX and RDX\n• Why inflators WITH a drying agent are now being recalled\n• The 14 hot and humid states and territories in this recall\n• Honda Pilot, Acura MDX and TLX power steering recall (635,808 vehicles)\n• How to check your VIN on NHTSA and Honda's website\n• What to do while you wait for replacement parts\n• Other 2025–2026 Honda recalls you should know about\n\n❓ FAQ\nIs my Honda included in the Takata airbag recall?\nThe November 2026 recall covers some 2013 Accord, 2012–2013 Civic, 2012–2013 CR-V, 2013 Acura ILX and 2013 Acura RDX vehicles sold or registered in 14 states and territories. Check your VIN at nhtsa.gov/recalls to be sure.\n\nHave there been injuries in these Hondas?\nHonda and Toyota say there have been no injuries, crashes or inflator ruptures tied to the recalled vehicles. NHTSA called the recalls proactive.\n\nHow much does the Honda recall repair cost?\nRecall repairs are free at authorized Honda and Acura dealers.\n\nWhich Hondas are in the power steering recall?\n2023–2025 Honda Pilot, 2022–2024 Acura MDX and 2021–2025 Acura TLX. Dealers reprogram the steering control unit for free.\n\n💬 Is your Honda on the list? Tell us your model and year in the comments.\n🔔 Subscribe to Honda Deep Dive for recall alerts, buying guides and honest Honda reliability breakdowns.\n\n#Honda #HondaRecall #TakataAirbag #HondaCivic #HondaCRV",
+ "tags": "honda recall, honda recall 2026, takata airbag recall, honda takata recall, honda airbag recall, honda civic recall, honda cr-v recall, honda accord recall, acura ilx recall, acura rdx recall, honda pilot recall, honda pilot power steering recall, acura mdx recall, acura tlx recall, check honda recall by vin, nhtsa recall check, takata airbag inflator, honda recall november 2026, honda safety recall, honda deep dive",
+ "estilo_imagem": "automotive photography, realistic photo, sharp focus, natural lighting, highly detailed",
+ "cenas": [
+  {
+   "titulo": "Recall Alert",
+   "falas": [
+    {
+     "texto": "Honda just announced a new *airbag recall*, and it covers more than eight hundred thousand cars and SUVs in the United States.",
+     "imagens": [
+      {
+       "id": "r001",
+       "prompt": "close-up of a car steering wheel airbag cover in a dark car interior, dramatic red warning light, no logos",
+       "rotulo": "810,592 vehicles"
+      }
+     ]
+    },
+    {
+     "texto": "Yes, it's Takata again. The same name behind the largest auto recall in history.",
+     "imagens": [
+      {
+       "id": "r002",
+       "prompt": "deployed car airbag inside a crashed vehicle, dramatic light, no logos",
+       "rotulo": "Takata, again"
+      }
+     ]
+    },
+    {
+     "texto": "And at the same time, another recall is hitting more than six hundred thousand Hondas and Acuras that can *lose power steering* while you drive.",
+     "imagens": [
+      {
+       "id": "r003",
+       "prompt": "hands gripping a car steering wheel tightly on a highway, tense driver, no logos",
+       "rotulo": "Power steering"
+      }
+     ]
+    },
+    {
+     "texto": "So in this video, I'll show you exactly which models are affected, what Honda says about the risk, and what you should do today.",
+     "topicos": [
+      "Which models",
+      "How big is the risk",
+      "What to do now"
+     ]
+    },
+    {
+     "texto": "And stay until the end, because there are other Honda recalls from this year that a lot of owners still haven't fixed.",
+     "imagens": [
+      {
+       "id": "r004",
+       "prompt": "stack of recall notice letters in a home mailbox, close-up",
+       "rotulo": "Missed recalls"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "The New Takata Recall",
+   "falas": [
+    {
+     "texto": "On November twentieth, Honda and Toyota announced recalls covering about *1.6 million* vehicles combined.",
+     "imagens": [
+      {
+       "id": "r005",
+       "prompt": "breaking news style photo of a busy car dealership service lane with many cars waiting",
+       "rotulo": "1.6 million total"
+      }
+     ]
+    },
+    {
+     "texto": "On the Honda side, that's 810,592 older cars and SUVs in the US.",
+     "topicos": [
+      "Honda: 810,592",
+      "Toyota: 314,000 in the US"
+     ]
+    },
+    {
+     "texto": "Honda says long-term monitoring found possible *propellant degradation* in certain airbag inflators.",
+     "imagens": [
+      {
+       "id": "r006",
+       "prompt": "engineer in a laboratory inspecting a small metal automotive airbag inflator canister under bright light",
+       "rotulo": "Long-term testing"
+      }
+     ]
+    },
+    {
+     "texto": "In simple terms, the chemical that inflates the airbag can break down over the years. And if it degrades too much, the inflator could rupture when the airbag deploys.",
+     "imagens": [
+      {
+       "id": "r007",
+       "prompt": "cutaway technical photo of a metal airbag inflator with chemical propellant tablets inside",
+       "rotulo": "Propellant breaks down"
+      },
+      {
+       "id": "r008",
+       "prompt": "small metal fragments scattered on a car dashboard, investigative photo",
+       "rotulo": "Rupture risk"
+      }
+     ]
+    },
+    {
+     "texto": "Both automakers say they will *replace* the airbag inflators, free of charge.",
+     "imagens": [
+      {
+       "id": "r009",
+       "prompt": "dealership technician installing a new airbag module into a steering wheel",
+       "rotulo": "Free replacement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "How the Takata Crisis Started",
+   "falas": [
+    {
+     "texto": "To understand why this matters, let's go back for a moment. Takata was once one of the biggest airbag suppliers in the world.",
+     "imagens": [
+      {
+       "id": "r047",
+       "prompt": "large automotive parts factory production line with workers, industrial photo",
+       "rotulo": "Airbag supplier"
+      }
+     ]
+    },
+    {
+     "texto": "To save money, it used a chemical called *ammonium nitrate* to inflate its airbags.",
+     "imagens": [
+      {
+       "id": "r048",
+       "prompt": "white chemical crystals in a laboratory glass dish, scientific photo",
+       "rotulo": "Ammonium nitrate"
+      }
+     ]
+    },
+    {
+     "texto": "It's powerful and cheap. But with years of heat and moisture, it can become unstable and burn too fast.",
+     "topicos": [
+      "Cheap",
+      "Powerful",
+      "Unstable with age"
+     ]
+    },
+    {
+     "texto": "When that happens, the metal canister can burst and send sharp fragments into the cabin.",
+     "imagens": [
+      {
+       "id": "r049",
+       "prompt": "damaged burst metal canister on a forensic investigation table",
+       "rotulo": "Burst canister"
+      }
+     ]
+    },
+    {
+     "texto": "The result was the *largest recall* in automotive history, with tens of millions of inflators recalled in the US alone, and Takata eventually went bankrupt.",
+     "imagens": [
+      {
+       "id": "r050",
+       "prompt": "empty corporate office building with closed signs, overcast day",
+       "rotulo": "Takata bankrupt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Which Hondas Are Affected?",
+   "falas": [
+    {
+     "texto": "Here are the models. Some *2013 Honda Accords*.",
+     "imagens": [
+      {
+       "id": "r010",
+       "prompt": "silver 2013 midsize sedan parked in a driveway, no logos",
+       "rotulo": "2013 Accord"
+      }
+     ]
+    },
+    {
+     "texto": "The 2012 and 2013 *Honda Civic*.",
+     "imagens": [
+      {
+       "id": "r011",
+       "prompt": "blue 2012 compact sedan on a suburban street, no logos",
+       "rotulo": "2012–2013 Civic"
+      }
+     ]
+    },
+    {
+     "texto": "The 2012 and 2013 *Honda CR-V*.",
+     "imagens": [
+      {
+       "id": "r012",
+       "prompt": "white 2012 compact suv in a parking lot, no logos",
+       "rotulo": "2012–2013 CR-V"
+      }
+     ]
+    },
+    {
+     "texto": "And on the Acura side, the 2013 ILX and the 2013 RDX.",
+     "imagens": [
+      {
+       "id": "r013",
+       "prompt": "dark gray 2013 premium compact sedan, no logos",
+       "rotulo": "2013 Acura ILX"
+      },
+      {
+       "id": "r014",
+       "prompt": "black 2013 premium compact suv, no logos",
+       "rotulo": "2013 Acura RDX"
+      }
+     ]
+    },
+    {
+     "texto": "These are some of the most popular cars Honda ever sold, so there are still a lot of them on the road, often with their second or third owner.",
+     "imagens": [
+      {
+       "id": "r057",
+       "prompt": "busy american highway traffic with many compact cars and suvs",
+       "rotulo": "Still on the road"
+      }
+     ]
+    },
+    {
+     "texto": "But here's the important part. Not every one of these cars is included. It depends on *where* the car was sold or registered.",
+     "topicos": [
+      "Model + year",
+      "+ the state you live in"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "The 14 Hot and Humid States",
+   "falas": [
+    {
+     "texto": "This recall targets vehicles sold or registered in places with *high heat*, humidity, and big temperature swings.",
+     "imagens": [
+      {
+       "id": "r015",
+       "prompt": "car parked in blazing sun with heat haze, hot humid summer day",
+       "rotulo": "Heat + humidity"
+      }
+     ]
+    },
+    {
+     "texto": "That includes Alabama, California, Florida, Georgia, Hawaii, Louisiana, Mississippi, South Carolina, and Texas.",
+     "topicos": [
+      "Alabama, California",
+      "Florida, Georgia, Hawaii",
+      "Louisiana, Mississippi",
+      "South Carolina, Texas"
+     ]
+    },
+    {
+     "texto": "Plus Puerto Rico, the US Virgin Islands, Guam, the Northern Mariana Islands, and American Samoa.",
+     "imagens": [
+      {
+       "id": "r016",
+       "prompt": "car driving on a tropical island coastal road with palm trees",
+       "rotulo": "US territories"
+      }
+     ]
+    },
+    {
+     "texto": "Heat and moisture are exactly what speed up the breakdown of that propellant. That's why the recall started in these regions.",
+     "imagens": [
+      {
+       "id": "r017",
+       "prompt": "thermometer showing very high temperature inside a hot car dashboard",
+       "rotulo": "Heat speeds it up"
+      }
+     ]
+    },
+    {
+     "texto": "And if you bought your car in one of these states and moved later, check anyway. The VIN check will tell you for sure.",
+     "imagens": [
+      {
+       "id": "r018",
+       "prompt": "moving truck and a car in front of a new house",
+       "rotulo": "Moved? Check anyway"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Why Is This Different?",
+   "falas": [
+    {
+     "texto": "Now, if you followed the original Takata disaster, this part is surprising.",
+     "imagens": [
+      {
+       "id": "r019",
+       "prompt": "archive style photo of a congressional hearing room about car safety",
+       "rotulo": "The original scandal"
+      }
+     ]
+    },
+    {
+     "texto": "Since 2009, Takata inflators have been linked to at least *28 deaths* and more than 400 injuries in the US. At least 20 of those deaths happened in Honda vehicles.",
+     "topicos": [
+      "28+ deaths",
+      "400+ injuries",
+      "20+ in Hondas"
+     ]
+    },
+    {
+     "texto": "But all of those deaths involved inflators *without* a drying agent.",
+     "imagens": [
+      {
+       "id": "r020",
+       "prompt": "old weathered airbag inflator part on a workbench, forensic evidence photo",
+       "rotulo": "No drying agent"
+      }
+     ]
+    },
+    {
+     "texto": "The inflators in this new recall *have* that moisture-absorbing material. For years, they were considered the safer version.",
+     "imagens": [
+      {
+       "id": "r021",
+       "prompt": "close-up of small desiccant moisture absorber packets in a laboratory",
+       "rotulo": "With drying agent"
+      }
+     ]
+    },
+    {
+     "texto": "Now, long-term data shows that even these can degrade over time in hot, humid climates. That's why regulators are watching other brands too.",
+     "imagens": [
+      {
+       "id": "r022",
+       "prompt": "government safety regulator office with documents and charts on a desk",
+       "rotulo": "Regulators watching"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "How an Airbag Inflator Works",
+   "falas": [
+    {
+     "texto": "Here's what's actually happening inside your steering wheel. An airbag has to inflate in about *thirty milliseconds*, faster than a blink.",
+     "imagens": [
+      {
+       "id": "r051",
+       "prompt": "high speed photo of an airbag inflating in a laboratory test",
+       "rotulo": "30 milliseconds"
+      }
+     ]
+    },
+    {
+     "texto": "When the crash sensor fires, a small charge ignites the propellant inside the inflator, which creates a burst of gas.",
+     "topicos": [
+      "Sensor fires",
+      "Propellant ignites",
+      "Gas fills the bag"
+     ]
+    },
+    {
+     "texto": "If the propellant has degraded, it can burn much too fast. The pressure spikes and the canister can't hold it.",
+     "imagens": [
+      {
+       "id": "r052",
+       "prompt": "pressure gauge needle in the red zone, close-up industrial photo",
+       "rotulo": "Pressure spike"
+      }
+     ]
+    },
+    {
+     "texto": "That's why the fix isn't a software update. The *inflator itself* has to be physically replaced.",
+     "imagens": [
+      {
+       "id": "r053",
+       "prompt": "new boxed automotive airbag module on a dealership parts counter",
+       "rotulo": "Physical replacement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "How Big Is the Risk?",
+   "falas": [
+    {
+     "texto": "Let's keep this in perspective. Honda and Toyota say there have been *no injuries*, no crashes, and no inflator ruptures tied to the vehicles in this recall.",
+     "topicos": [
+      "0 injuries",
+      "0 crashes",
+      "0 ruptures"
+     ]
+    },
+    {
+     "texto": "NHTSA called these *proactive* recalls, meaning the automakers acted on early evidence before anyone got hurt.",
+     "imagens": [
+      {
+       "id": "r023",
+       "prompt": "safety engineer reviewing crash test data on computer monitors",
+       "rotulo": "Proactive recall"
+      }
+     ]
+    },
+    {
+     "texto": "That's good news. But airbags are the one part you never get to test before you need it.",
+     "imagens": [
+      {
+       "id": "r024",
+       "prompt": "crash test dummy in a car during a laboratory crash test, airbag deploying",
+       "rotulo": "No second chance"
+      }
+     ]
+    },
+    {
+     "texto": "Remember, these cars are now twelve to fourteen years old. That's exactly the age when heat and moisture have had the most time to work on the propellant.",
+     "imagens": [
+      {
+       "id": "r058",
+       "prompt": "older faded compact car parked under strong sun in a parking lot",
+       "rotulo": "12–14 years old"
+      }
+     ]
+    },
+    {
+     "texto": "So if your car is on the list, don't panic. But don't ignore the letter either.",
+     "imagens": [
+      {
+       "id": "r025",
+       "prompt": "person opening an official envelope letter at a kitchen table",
+       "rotulo": "Read the letter"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Check Your VIN in 30 Seconds",
+   "falas": [
+    {
+     "texto": "Here's how to know for sure. First, find your *VIN*, the seventeen-character vehicle identification number.",
+     "imagens": [
+      {
+       "id": "r026",
+       "prompt": "close-up of a vehicle identification number plate visible through the bottom of a car windshield",
+       "rotulo": "Find your VIN"
+      }
+     ]
+    },
+    {
+     "texto": "It's on the lower corner of your windshield, on the driver's door jamb, and on your registration or insurance card.",
+     "imagens": [
+      {
+       "id": "r027",
+       "prompt": "open car door showing the sticker label on the driver's door jamb",
+       "rotulo": "Door jamb"
+      },
+      {
+       "id": "r028",
+       "prompt": "car insurance card and registration documents on a car seat",
+       "rotulo": "Insurance card"
+      }
+     ]
+    },
+    {
+     "texto": "Then go to nhtsa dot gov slash recalls, or Honda's owner website, and type it in.",
+     "imagens": [
+      {
+       "id": "r029",
+       "prompt": "person typing on a laptop at home checking a car recall website, screen out of focus",
+       "rotulo": "nhtsa.gov/recalls"
+      }
+     ]
+    },
+    {
+     "texto": "If a recall shows up as *open*, call your dealer. The repair is free, even if you're not the original owner.",
+     "topicos": [
+      "Open recall?",
+      "Call the dealer",
+      "Repair is free"
+     ]
+    },
+    {
+     "texto": "And if you own more than one Honda in the family, check every VIN. Recalls are by individual vehicle, not by model.",
+     "imagens": [
+      {
+       "id": "r059",
+       "prompt": "two family cars parked side by side in a home driveway",
+       "rotulo": "Check every car"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "What to Do While You Wait",
+   "falas": [
+    {
+     "texto": "Replacement parts for big recalls like this can take time. Toyota, for example, expects its parts to be ready in *early 2027*.",
+     "imagens": [
+      {
+       "id": "r030",
+       "prompt": "car parts warehouse with shelves of boxed replacement parts",
+       "rotulo": "Parts take time"
+      }
+     ]
+    },
+    {
+     "texto": "So here's what you can do in the meantime. Get on the dealer's list now, so you're first in line when parts arrive.",
+     "imagens": [
+      {
+       "id": "r031",
+       "prompt": "customer talking with a service advisor at a car dealership service desk",
+       "rotulo": "Get on the list"
+      }
+     ]
+    },
+    {
+     "texto": "Make sure your address is up to date with Honda, so the official *recall letter* actually reaches you.",
+     "imagens": [
+      {
+       "id": "r032",
+       "prompt": "person updating address information on a smartphone",
+       "rotulo": "Update your address"
+      }
+     ]
+    },
+    {
+     "texto": "And ask the dealer directly what they recommend for your specific car while you wait. Follow the official guidance for your VIN.",
+     "topicos": [
+      "Get in line",
+      "Update your address",
+      "Ask the dealer"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Recall #2: Losing Power Steering",
+   "falas": [
+    {
+     "texto": "Now the second recall. Just days earlier, Honda and Acura recalled *635,808* vehicles over power steering software.",
+     "imagens": [
+      {
+       "id": "r033",
+       "prompt": "large three-row family suv driving on a suburban road, no logos",
+       "rotulo": "635,808 vehicles"
+      }
+     ]
+    },
+    {
+     "texto": "It covers the 2023 to 2025 *Honda Pilot*, the 2022 to 2024 Acura MDX, and the 2021 to 2025 Acura TLX.",
+     "imagens": [
+      {
+       "id": "r034",
+       "prompt": "gray 2024 three-row family suv parked at a school pickup, no logos",
+       "rotulo": "2023–2025 Pilot"
+      },
+      {
+       "id": "r035",
+       "prompt": "white luxury three-row suv in a modern city, no logos",
+       "rotulo": "2022–2024 MDX"
+      },
+      {
+       "id": "r036",
+       "prompt": "red sporty luxury sedan on a mountain road, no logos",
+       "rotulo": "2021–2025 TLX"
+      }
+     ]
+    },
+    {
+     "texto": "A software error can cause a *loss of power steering assist*. The wheel suddenly gets much heavier.",
+     "imagens": [
+      {
+       "id": "r037",
+       "prompt": "driver struggling to turn a heavy steering wheel at low speed in a parking lot",
+       "rotulo": "Heavy steering"
+      }
+     ]
+    },
+    {
+     "texto": "That's manageable on a straight highway, but scary in a parking lot or a tight turn.",
+     "topicos": [
+      "Parking lots",
+      "Tight turns",
+      "Low speed"
+     ]
+    },
+    {
+     "texto": "If it happens to you, stay calm, hold the wheel firmly, and slow down. You can still steer, it just takes a lot more effort.",
+     "topicos": [
+      "Stay calm",
+      "Hold firmly",
+      "Slow down"
+     ]
+    },
+    {
+     "texto": "The fix is simple. Dealers will reprogram the steering control unit for free. Owner letters are expected around *December fourteenth*.",
+     "imagens": [
+      {
+       "id": "r038",
+       "prompt": "car technician connecting a laptop diagnostic tool to a vehicle in a service bay",
+       "rotulo": "Free software update"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Other 2025–2026 Recalls",
+   "falas": [
+    {
+     "texto": "And there are a few more recalls from this year that many owners never fixed.",
+     "imagens": [
+      {
+       "id": "r039",
+       "prompt": "busy car dealership service department with several cars on lifts",
+       "rotulo": "More recalls"
+      }
+     ]
+    },
+    {
+     "texto": "Certain CR-V Hybrid and Accord Hybrid models were recalled because the cap on the *tire repair kit* sealant bottle can come off.",
+     "imagens": [
+      {
+       "id": "r040",
+       "prompt": "emergency tire repair kit with sealant bottle in a car trunk",
+       "rotulo": "Tire repair kit"
+      }
+     ]
+    },
+    {
+     "texto": "And some 2025 Civic and Civic Hybrid models were recalled for a *high-pressure fuel pump* that may crack and leak fuel.",
+     "imagens": [
+      {
+       "id": "r041",
+       "prompt": "close-up of an automotive high pressure fuel pump on a modern engine",
+       "rotulo": "Fuel pump"
+      }
+     ]
+    },
+    {
+     "texto": "These don't make headlines like airbags, but a fuel leak is a fire risk. So run your VIN even if you drive a newer Honda.",
+     "topicos": [
+      "Tire kit cap",
+      "Fuel pump crack",
+      "Check newer Hondas too"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Buying a Used Honda?",
+   "falas": [
+    {
+     "texto": "If you're shopping for a used 2012 or 2013 Civic, CR-V, or Accord, this matters a lot.",
+     "imagens": [
+      {
+       "id": "r042",
+       "prompt": "used car lot with several older compact sedans and suvs for sale",
+       "rotulo": "Used car shopping"
+      }
+     ]
+    },
+    {
+     "texto": "Always run the VIN before you buy. Private sellers don't have to fix open recalls before selling the car.",
+     "imagens": [
+      {
+       "id": "r043",
+       "prompt": "two people shaking hands next to a used car with a for sale sign",
+       "rotulo": "Private sale"
+      }
+     ]
+    },
+    {
+     "texto": "The good news? An open recall is free to fix. You can even use it as a negotiation point.",
+     "topicos": [
+      "Run the VIN",
+      "Recall = free fix",
+      "Use it to negotiate"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Never Miss a Recall Again",
+   "falas": [
+    {
+     "texto": "Here's a simple habit that can save your life. Most people only find out about recalls when the letter arrives, and many letters never arrive.",
+     "imagens": [
+      {
+       "id": "r054",
+       "prompt": "pile of unopened mail on a kitchen counter",
+       "rotulo": "Lost letters"
+      }
+     ]
+    },
+    {
+     "texto": "First, sign up for *recall alerts* from NHTSA. You enter your vehicle once, and they email you when a new recall is issued.",
+     "imagens": [
+      {
+       "id": "r055",
+       "prompt": "email notification popping up on a smartphone screen, close-up",
+       "rotulo": "Email alerts"
+      }
+     ]
+    },
+    {
+     "texto": "Second, create an account on Honda's owner website and register your car under your name.",
+     "imagens": [
+      {
+       "id": "r056",
+       "prompt": "person registering a car online on a laptop at a desk with car keys beside it",
+       "rotulo": "Register your car"
+      }
+     ]
+    },
+    {
+     "texto": "And third, every time you get an oil change, ask the dealer or your shop to check for open recalls. It takes them ten seconds.",
+     "topicos": [
+      "NHTSA alerts",
+      "Owner account",
+      "Ask at every service"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "The Bottom Line",
+   "falas": [
+    {
+     "texto": "So, here's the bottom line. If you drive a 2012 or 2013 Civic or CR-V, a 2013 Accord, or a 2013 ILX or RDX, especially in a hot, humid state, *check your VIN today*.",
+     "imagens": [
+      {
+       "id": "r044",
+       "prompt": "person checking a smartphone next to their parked car in a sunny driveway",
+       "rotulo": "Check today"
+      }
+     ]
+    },
+    {
+     "texto": "If you drive a 2023 to 2025 Pilot, a 2022 to 2024 MDX, or a 2021 to 2025 TLX, watch for that steering update letter in December.",
+     "imagens": [
+      {
+       "id": "r045",
+       "prompt": "calendar on a kitchen wall with december highlighted, car keys on the counter",
+       "rotulo": "December letter"
+      }
+     ]
+    },
+    {
+     "texto": "These recalls are free, and they exist to fix problems *before* they hurt someone.",
+     "topicos": [
+      "Free",
+      "Proactive",
+      "Takes one visit"
+     ]
+    },
+    {
+     "texto": "Is your Honda on the list? Tell me your model and year in the comments. And *subscribe* to Honda Deep Dive, so you hear about the next recall first.",
+     "imagens": [
+      {
+       "id": "r046",
+       "prompt": "person typing a comment on a smartphone, close-up",
+       "rotulo": "Comment your model"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "thumb_prompt": "YouTube thumbnail, 16:9, hyper-realistic photo. Close-up of a car steering wheel with an airbag bursting open and sharp metal fragments flying toward the camera, dramatic red warning light, dark car interior. Bold condensed text on the right with thick black outline: \"AIRBAG RECALL\" in white, and below in huge yellow letters: \"CHECK YOUR VIN\". A red circle highlights the steering wheel center and a red arrow points at it. High contrast, cinematic, no watermark."
+}

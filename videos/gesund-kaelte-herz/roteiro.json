@@ -1,0 +1,668 @@
+{
+ "canal": "gesund",
+ "voice_id": "d42fc8d7-efdd-44df-bb2e-a6e093601917",
+ "language": "de",
+ "velocidade": 0.95,
+ "titulo": "Kälte ist gefährlicher für Ihr Herz als Hitze – 7 Regeln, die Sie ab 60 im Winter schützen",
+ "descricao": "Kälte belastet das Herz stärker, als die meisten denken: Eine neue Auswertung zeigt, dass Kälte deutlich mehr Herz-Kreislauf-Todesfälle verursacht als Hitze. Gerade ab 60 steigt im Winter das Risiko für Herzinfarkt, Bluthochdruck und Schlaganfall.\n\nIn diesem Video erfahren Sie einfach und verständlich, was Kälte mit Ihren Gefäßen und Ihrem Blutdruck macht, warum der frühe Morgen im Winter besonders kritisch ist, warum Schneeschippen für ältere Menschen gefährlich sein kann und welche 7 einfachen Regeln Ihr Herz in der kalten Jahreszeit schützen – von der richtigen Kleidung über die Raumtemperatur bis zur Grippeimpfung. Außerdem: die Warnsignale, bei denen Sie sofort den Notruf 112 rufen müssen.\n\n⏱️ KAPITEL\n{capitulos}\n\n✅ DAS ERFAHREN SIE IN DIESEM VIDEO\n• Warum Kälte das Herz stärker belastet als Hitze\n• Was bei Minusgraden in Ihren Gefäßen passiert\n• Blutdruck im Winter: warum er morgens besonders steigt\n• Schneeschippen ab 60: das unterschätzte Risiko\n• Die richtige Kleidung und der Schal vor Mund und Nase\n• Raumtemperatur, Bewegung und Ernährung im Winter\n• Grippeimpfung und Herzgesundheit\n• Warnsignale eines Herzinfarkts im Winter – wann Sie 112 rufen\n\n❓ HÄUFIGE FRAGEN\nWarum ist Kälte schlecht für das Herz?\nBei Kälte ziehen sich die Blutgefäße zusammen, der Blutdruck steigt und das Herz muss gegen einen höheren Widerstand pumpen.\n\nIst Schneeschippen für Senioren gefährlich?\nSchweres Schneeschippen in der Kälte ist eine starke Belastung für das Herz. Gehen Sie es langsam an, machen Sie Pausen oder bitten Sie um Hilfe.\n\nWann sollten Blutdruckmedikamente im Winter eingenommen werden?\nDa der Blutdruck morgens oft steigt, wird die Einnahme meist morgens empfohlen – besprechen Sie Ihren persönlichen Plan immer mit Ihrem Arzt.\n\nWelche Raumtemperatur ist im Winter für Senioren gut?\nWohnräume sollten tagsüber angenehm warm sein, meist um die 20 Grad. Auch das Schlafzimmer sollte nicht zu kalt werden.\n\n💬 Was tun Sie im Winter für Ihr Herz? Schreiben Sie es gern in die Kommentare.\n🔔 Abonnieren Sie „Gesund ab 60“ für einfache, verständliche Gesundheitstipps für Senioren – und teilen Sie dieses Video mit jemandem, dem Sie es wünschen.\n\n⚠️ Hinweis: Dieses Video dient ausschließlich der allgemeinen Information und ersetzt keine ärztliche Beratung, Diagnose oder Behandlung. Ändern oder setzen Sie Medikamente niemals ohne Rücksprache mit Ihrem Arzt ab. Bei Brustschmerzen, akuter Atemnot oder Anzeichen eines Schlaganfalls rufen Sie sofort den Notruf 112.\n\n#Gesundheit #Herzgesundheit #Winter #Bluthochdruck #GesundAb60",
+ "tags": "kälte herz, kälte herzinfarkt, winter herz senioren, herzinfarkt winter, blutdruck winter, kälte blutdruck, herzgesundheit winter, schneeschippen herz, schneeschippen senioren, herz schützen im winter, herzinfarkt anzeichen, gefäße kälte, grippeimpfung herz, raumtemperatur senioren, herzgesundheit ab 60, gesundheit senioren winter, gesund ab 60, bluthochdruck senioren, herzstiftung tipps winter, wann 112 rufen",
+ "estilo_imagem": "realistic photo, soft natural lighting, warm tones, highly detailed, documentary style",
+ "cenas": [
+  {
+   "titulo": "Kälte und Ihr Herz",
+   "falas": [
+    {
+     "texto": "Die meisten Menschen denken bei Gefahr für das Herz an heiße Sommertage. Doch eine neue Auswertung zeigt: *Kälte* ist für das Herz deutlich gefährlicher als Hitze.",
+     "imagens": [
+      {
+       "id": "k001",
+       "prompt": "elderly man walking on a snowy street in winter, breath visible in cold air",
+       "rotulo": "Kälte"
+      }
+     ]
+    },
+    {
+     "texto": "Gerade ab sechzig steigt im Winter das Risiko für Herzinfarkt, hohen Blutdruck und Schlaganfall.",
+     "imagens": [
+      {
+       "id": "k002",
+       "prompt": "senior woman holding her chest outdoors in a cold winter landscape",
+       "rotulo": "Risiko im Winter"
+      }
+     ]
+    },
+    {
+     "texto": "Heute erkläre ich Ihnen, warum das so ist, und welche *sieben Regeln* Ihr Herz in der kalten Jahreszeit schützen.",
+     "topicos": [
+      "Warum Kälte gefährlich ist",
+      "7 einfache Regeln",
+      "Wann Sie 112 rufen"
+     ]
+    },
+    {
+     "texto": "Wichtig vorab: Dieses Video ersetzt keinen Arztbesuch. Bei Brustschmerzen oder akuter Atemnot rufen Sie sofort die *112*.",
+     "imagens": [
+      {
+       "id": "k003",
+       "prompt": "stethoscope lying on a wooden table next to a cup of tea, winter mood",
+       "rotulo": "Kein Ersatz für den Arzt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Was die Studie zeigt",
+   "falas": [
+    {
+     "texto": "Forscher haben ausgewertet, wie Temperatur und Herz-Kreislauf-Todesfälle zusammenhängen.",
+     "imagens": [
+      {
+       "id": "k004",
+       "prompt": "scientist analyzing charts and data on a computer in a research lab",
+       "rotulo": "Neue Auswertung"
+      }
+     ]
+    },
+    {
+     "texto": "Das Ergebnis: Kälte steht mit *rund vierzigtausend* zusätzlichen Herz-Kreislauf-Todesfällen pro Jahr in Verbindung.",
+     "imagens": [
+      {
+       "id": "k005",
+       "prompt": "hospital cardiology ward corridor at night in winter, calm documentary photo",
+       "rotulo": "Rund 40.000 pro Jahr"
+      }
+     ]
+    },
+    {
+     "texto": "Bei Hitze kam die gleiche Zahl zusammen, aber verteilt über ganze *zwanzig Jahre*.",
+     "topicos": [
+      "Kälte: ~40.000 pro Jahr",
+      "Hitze: gleiche Zahl in 20 Jahren"
+     ]
+    },
+    {
+     "texto": "Beides belastet das Herz. Aber bei Kälte steigt das Risiko viel stärker. Deshalb raten Herzspezialisten älteren Menschen, bei Kälteeinbrüchen besonders vorsichtig zu sein.",
+     "imagens": [
+      {
+       "id": "k006",
+       "prompt": "cardiologist talking with an elderly couple in a bright doctor's office",
+       "rotulo": "Rat der Kardiologen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Was Kälte im Körper macht",
+   "falas": [
+    {
+     "texto": "Was passiert eigentlich, wenn Sie in die Kälte gehen? Ihr Körper will die Wärme im Inneren halten.",
+     "imagens": [
+      {
+       "id": "k007",
+       "prompt": "senior woman stepping out of a front door into a snowy morning, wrapping her coat",
+       "rotulo": "Raus in die Kälte"
+      }
+     ]
+    },
+    {
+     "texto": "Dafür ziehen sich die *Blutgefäße* in Haut, Händen und Füßen zusammen.",
+     "imagens": [
+      {
+       "id": "k008",
+       "prompt": "anatomical model of human blood vessels and heart on a doctor's desk",
+       "rotulo": "Gefäße ziehen sich zusammen"
+      }
+     ]
+    },
+    {
+     "texto": "Das Blut muss jetzt durch engere Gefäße gepumpt werden. Der *Blutdruck steigt*, und das Herz muss gegen einen höheren Widerstand arbeiten.",
+     "topicos": [
+      "Engere Gefäße",
+      "Höherer Blutdruck",
+      "Mehr Arbeit für das Herz"
+     ]
+    },
+    {
+     "texto": "Schon ein paar Minuten in eisiger Luft reichen, damit der Blutdruck messbar ansteigt. Das passiert ganz automatisch, ohne dass Sie es merken.",
+     "imagens": [
+      {
+       "id": "k044",
+       "prompt": "outdoor thermometer showing minus temperatures on a frosty window",
+       "rotulo": "Minusgrade"
+      }
+     ]
+    },
+    {
+     "texto": "Dazu kommt: In der Kälte wird das Blut etwas dicker, und die Neigung zu Blutgerinnseln kann steigen.",
+     "imagens": [
+      {
+       "id": "k009",
+       "prompt": "close-up of a blood sample tube in a medical laboratory",
+       "rotulo": "Dickeres Blut"
+      }
+     ]
+    },
+    {
+     "texto": "Für ein gesundes Herz ist das kein Problem. Aber bei verengten Herzkranzgefäßen kann genau diese Mehrbelastung zu viel sein.",
+     "imagens": [
+      {
+       "id": "k010",
+       "prompt": "doctor pointing at an angiography image of heart arteries on a screen",
+       "rotulo": "Verengte Gefäße"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Der gefährliche Wintermorgen",
+   "falas": [
+    {
+     "texto": "Besonders kritisch ist der *frühe Morgen*. Schon von Natur aus steigt der Blutdruck nach dem Aufwachen an.",
+     "imagens": [
+      {
+       "id": "k011",
+       "prompt": "dark winter morning bedroom, elderly man waking up, alarm clock showing early time",
+       "rotulo": "Früh am Morgen"
+      }
+     ]
+    },
+    {
+     "texto": "Wenn Sie dann aus dem warmen Bett direkt in die eisige Morgenluft gehen, kommt die Kälte noch obendrauf.",
+     "imagens": [
+      {
+       "id": "k012",
+       "prompt": "elderly man scraping ice off a car windshield on a frosty dark morning",
+       "rotulo": "Eiskalter Start"
+      }
+     ]
+    },
+    {
+     "texto": "Viele Herzinfarkte passieren genau in diesen frühen Stunden.",
+     "topicos": [
+      "Blutdruck steigt morgens",
+      "+ Kälte",
+      "= doppelte Belastung"
+     ]
+    },
+    {
+     "texto": "Deshalb gilt: Morgens langsam starten, erst warm anziehen, und nicht sofort schwere Arbeit draußen.",
+     "imagens": [
+      {
+       "id": "k013",
+       "prompt": "senior woman calmly drinking a warm tea by the window on a winter morning",
+       "rotulo": "Langsam starten"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Wer besonders gefährdet ist",
+   "falas": [
+    {
+     "texto": "Nicht jeder ist gleich gefährdet. Besonders vorsichtig sollten Sie sein, wenn Sie *Bluthochdruck* haben.",
+     "imagens": [
+      {
+       "id": "k038",
+       "prompt": "blood pressure monitor showing a high reading on a kitchen table, winter light",
+       "rotulo": "Bluthochdruck"
+      }
+     ]
+    },
+    {
+     "texto": "Ebenso bei einer bekannten Herzkrankheit, nach einem Herzinfarkt, bei Herzschwäche oder bei Diabetes.",
+     "topicos": [
+      "Herzkrankheit",
+      "Nach Herzinfarkt",
+      "Herzschwäche",
+      "Diabetes"
+     ]
+    },
+    {
+     "texto": "Auch Raucher und Menschen mit starkem Übergewicht haben im Winter ein höheres Risiko.",
+     "imagens": [
+      {
+       "id": "k039",
+       "prompt": "ashtray with cigarettes on a windowsill with snow outside",
+       "rotulo": "Rauchen"
+      }
+     ]
+    },
+    {
+     "texto": "Wenn Sie zu einer dieser Gruppen gehören, sprechen Sie vor dem Winter mit Ihrem Arzt. Fragen Sie ganz konkret: Worauf soll ich in der Kälte achten?",
+     "imagens": [
+      {
+       "id": "k040",
+       "prompt": "elderly man asking his family doctor questions in a cozy practice in winter",
+       "rotulo": "Den Arzt fragen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Regel 1: Blutdruck im Blick",
+   "falas": [
+    {
+     "texto": "Die erste Regel: Behalten Sie im Winter Ihren *Blutdruck* besonders gut im Blick.",
+     "imagens": [
+      {
+       "id": "k014",
+       "prompt": "senior man measuring his blood pressure at home with a digital monitor",
+       "rotulo": "Blutdruck messen"
+      }
+     ]
+    },
+    {
+     "texto": "Messen Sie am besten jeden Tag zur gleichen Zeit, morgens und abends, und schreiben Sie die Werte auf.",
+     "imagens": [
+      {
+       "id": "k015",
+       "prompt": "notebook with handwritten blood pressure values next to a monitor on a table",
+       "rotulo": "Werte notieren"
+      }
+     ]
+    },
+    {
+     "texto": "Wenn Ihre Werte im Winter deutlich höher sind als im Sommer, sprechen Sie mit Ihrem Arzt. Manchmal muss die *Dosis* angepasst werden.",
+     "topicos": [
+      "Täglich messen",
+      "Werte aufschreiben",
+      "Mit dem Arzt besprechen"
+     ]
+    },
+    {
+     "texto": "Und ganz wichtig: Ändern Sie Ihre Medikamente niemals selbst. Das entscheidet immer Ihr Arzt.",
+     "imagens": [
+      {
+       "id": "k016",
+       "prompt": "doctor reviewing a patient's notes and medication plan with an elderly woman",
+       "rotulo": "Nur mit dem Arzt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Regel 2: Medikamente am Morgen",
+   "falas": [
+    {
+     "texto": "Zweitens: Nehmen Sie Ihre Medikamente *regelmäßig*, auch wenn Sie sich gut fühlen.",
+     "imagens": [
+      {
+       "id": "k017",
+       "prompt": "weekly pill organizer with tablets on a kitchen table, winter morning light",
+       "rotulo": "Regelmäßig"
+      }
+     ]
+    },
+    {
+     "texto": "Da der Blutdruck morgens steigt, werden blutdrucksenkende Mittel oft schon *morgens* empfohlen, bevor Sie nach draußen gehen.",
+     "imagens": [
+      {
+       "id": "k018",
+       "prompt": "senior man taking a pill with a glass of water before putting on his winter coat",
+       "rotulo": "Vor dem Rausgehen"
+      }
+     ]
+    },
+    {
+     "texto": "Fragen Sie Ihren Arzt oder Apotheker, welcher Zeitpunkt für Ihre Tabletten der richtige ist.",
+     "topicos": [
+      "Regelmäßig nehmen",
+      "Zeitpunkt klären",
+      "Nie eigenmächtig ändern"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Regel 3: Richtig anziehen",
+   "falas": [
+    {
+     "texto": "Drittens: Ziehen Sie sich nach dem *Zwiebelprinzip* an, also mehrere dünne Schichten statt einer dicken Jacke.",
+     "imagens": [
+      {
+       "id": "k019",
+       "prompt": "senior woman putting on layered winter clothing, scarf, hat and gloves in a hallway",
+       "rotulo": "Zwiebelprinzip"
+      }
+     ]
+    },
+    {
+     "texto": "Mütze, Handschuhe und warme Schuhe sind kein Luxus. Über Kopf, Hände und Füße verliert der Körper viel Wärme.",
+     "imagens": [
+      {
+       "id": "k020",
+       "prompt": "warm wool hat, gloves and winter boots arranged on a wooden bench",
+       "rotulo": "Mütze, Handschuhe, Schuhe"
+      }
+     ]
+    },
+    {
+     "texto": "Und ein besonders einfacher Trick: ein *Schal vor Mund und Nase*. Er wärmt die Atemluft vor und entlastet so Herz und Atemwege.",
+     "imagens": [
+      {
+       "id": "k021",
+       "prompt": "elderly man walking in snow with a scarf covering his mouth and nose",
+       "rotulo": "Schal vor Mund und Nase"
+      }
+     ]
+    },
+    {
+     "texto": "Vorsicht auch bei plötzlichem Wechsel: Wenn Sie aus der warmen Wohnung direkt in die Kälte gehen, gönnen Sie sich ein paar Minuten im Hausflur, damit sich der Körper anpassen kann.",
+     "topicos": [
+      "Nicht abrupt raus",
+      "Kurz anpassen lassen"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Regel 4: Vorsicht beim Schneeschippen",
+   "falas": [
+    {
+     "texto": "Viertens, und das wird stark unterschätzt: das *Schneeschippen*.",
+     "imagens": [
+      {
+       "id": "k022",
+       "prompt": "senior man shoveling heavy snow in front of a house",
+       "rotulo": "Schneeschippen"
+      }
+     ]
+    },
+    {
+     "texto": "Schwerer, nasser Schnee, eisige Luft und plötzliche Anstrengung sind für das Herz eine gefährliche Kombination.",
+     "topicos": [
+      "Schwerer Schnee",
+      "Eisige Luft",
+      "Plötzliche Anstrengung"
+     ]
+    },
+    {
+     "texto": "Wenn Sie es selbst machen: langsam beginnen, kleine Mengen schieben statt heben, und regelmäßig *Pausen* machen.",
+     "imagens": [
+      {
+       "id": "k023",
+       "prompt": "elderly man resting on a snow shovel taking a break",
+       "rotulo": "Pausen machen"
+      }
+     ]
+    },
+    {
+     "texto": "Hören Sie sofort auf, wenn Sie Druck in der Brust, Atemnot oder Schwindel spüren. Das ist ein Warnsignal, kein Zeichen von Erschöpfung.",
+     "imagens": [
+      {
+       "id": "k045",
+       "prompt": "elderly man stopping in the snow with a hand on his chest, worried expression",
+       "rotulo": "Sofort aufhören"
+      }
+     ]
+    },
+    {
+     "texto": "Und wenn Sie Herzprobleme haben, bitten Sie lieber Nachbarn, Familie oder einen Winterdienst um Hilfe. Das ist keine Schwäche, sondern klug.",
+     "imagens": [
+      {
+       "id": "k024",
+       "prompt": "young neighbor shoveling snow for an elderly woman who smiles at her door",
+       "rotulo": "Hilfe annehmen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Regel 5: Warme Wohnung",
+   "falas": [
+    {
+     "texto": "Fünftens: Halten Sie Ihre Wohnung *warm genug*. Viele ältere Menschen sparen im Winter an der Heizung.",
+     "imagens": [
+      {
+       "id": "k025",
+       "prompt": "elderly woman wrapped in a blanket in a cold living room adjusting a radiator",
+       "rotulo": "Nicht an der Heizung sparen"
+      }
+     ]
+    },
+    {
+     "texto": "Tagsüber sind etwa zwanzig Grad im Wohnzimmer angenehm. Auch das Schlafzimmer sollte nicht zu kalt werden.",
+     "imagens": [
+      {
+       "id": "k026",
+       "prompt": "radiator thermostat knob being turned in a cozy living room",
+       "rotulo": "Um die 20 Grad"
+      }
+     ]
+    },
+    {
+     "texto": "Wer frierend aufwacht, startet den Tag schon mit höherem Blutdruck.",
+     "topicos": [
+      "Wohnzimmer: ~20 Grad",
+      "Schlafzimmer: nicht zu kalt",
+      "Warm aufstehen"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Regel 6: Bewegung und Ernährung",
+   "falas": [
+    {
+     "texto": "Sechstens: Bleiben Sie in *Bewegung*, auch im Winter. Bewegungsmangel ist für das Herz genauso schlecht wie Kälte.",
+     "imagens": [
+      {
+       "id": "k027",
+       "prompt": "senior couple taking a brisk walk in a sunny winter park",
+       "rotulo": "In Bewegung bleiben"
+      }
+     ]
+    },
+    {
+     "texto": "Gehen Sie lieber zur wärmeren Mittagszeit spazieren, oder bewegen Sie sich drinnen, zum Beispiel mit leichter Gymnastik.",
+     "imagens": [
+      {
+       "id": "k028",
+       "prompt": "elderly woman doing gentle exercises at home in a bright living room",
+       "rotulo": "Gymnastik zu Hause"
+      }
+     ]
+    },
+    {
+     "texto": "Essen Sie warm und herzgesund: Suppen, Gemüse, Hülsenfrüchte, und wenig Salz.",
+     "imagens": [
+      {
+       "id": "k029",
+       "prompt": "bowl of hearty vegetable soup on a rustic table in winter",
+       "rotulo": "Warm und gesund essen"
+      }
+     ]
+    },
+    {
+     "texto": "Trinken Sie auch im Winter genug, auch wenn Sie keinen Durst haben. Warme Tees sind ideal und helfen, das Blut flüssig zu halten.",
+     "imagens": [
+      {
+       "id": "k046",
+       "prompt": "teapot and a cup of herbal tea on a windowsill in winter",
+       "rotulo": "Genug trinken"
+      }
+     ]
+    },
+    {
+     "texto": "Und Vorsicht mit *Alkohol* zum Aufwärmen. Er erweitert kurz die Gefäße und gibt ein falsches Wärmegefühl, aber der Körper verliert dabei sogar Wärme.",
+     "topicos": [
+      "Mittags spazieren",
+      "Weniger Salz",
+      "Kein Alkohol zum Aufwärmen"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Regel 7: Grippeimpfung",
+   "falas": [
+    {
+     "texto": "Siebtens: Denken Sie an die *Grippeimpfung*. Das überrascht viele, aber sie schützt auch das Herz.",
+     "imagens": [
+      {
+       "id": "k030",
+       "prompt": "doctor giving a flu vaccination to an elderly man in a practice",
+       "rotulo": "Grippeimpfung"
+      }
+     ]
+    },
+    {
+     "texto": "Eine Grippe ist für den ganzen Körper Stress, und sie kann bei Herzkranken einen Herzinfarkt auslösen.",
+     "imagens": [
+      {
+       "id": "k031",
+       "prompt": "elderly woman sick in bed with a fever and a thermometer",
+       "rotulo": "Grippe = Stress"
+      }
+     ]
+    },
+    {
+     "texto": "Für Menschen ab sechzig wird die Impfung in Deutschland ausdrücklich empfohlen. Fragen Sie Ihren Hausarzt.",
+     "topicos": [
+      "Ab 60 empfohlen",
+      "Schützt auch das Herz",
+      "Hausarzt fragen"
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Warnsignale im Winter",
+   "falas": [
+    {
+     "texto": "Kennen Sie die *Warnsignale* eines Herzinfarkts? Im Winter ist das besonders wichtig.",
+     "imagens": [
+      {
+       "id": "k032",
+       "prompt": "senior man stopping on a snowy sidewalk holding his chest",
+       "rotulo": "Warnsignale"
+      }
+     ]
+    },
+    {
+     "texto": "Druck oder Schmerz in der Brust, der in Arm, Kiefer oder Rücken ausstrahlt. Atemnot, kalter Schweiß, Übelkeit oder starke Angst.",
+     "topicos": [
+      "Brustschmerz",
+      "Ausstrahlung in Arm/Kiefer",
+      "Atemnot, kalter Schweiß"
+     ]
+    },
+    {
+     "texto": "Bei Frauen sind die Zeichen oft leiser, zum Beispiel ungewohnte Erschöpfung oder Übelkeit.",
+     "imagens": [
+      {
+       "id": "k033",
+       "prompt": "elderly woman sitting exhausted on a sofa holding her stomach",
+       "rotulo": "Bei Frauen leiser"
+      }
+     ]
+    },
+    {
+     "texto": "In diesem Fall: sofort die *112* rufen. Nicht abwarten und nicht selbst zum Krankenhaus fahren.",
+     "imagens": [
+      {
+       "id": "k034",
+       "prompt": "ambulance with flashing lights on a snowy german street at night",
+       "rotulo": "Sofort 112"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Was Angehörige tun können",
+   "falas": [
+    {
+     "texto": "Und wenn Sie Kinder oder Enkel haben, die dieses Video sehen: Sie können viel helfen.",
+     "imagens": [
+      {
+       "id": "k041",
+       "prompt": "adult daughter visiting her elderly mother at home in winter, warm hug",
+       "rotulo": "Familie hilft"
+      }
+     ]
+    },
+    {
+     "texto": "Rufen Sie bei Kälteeinbrüchen öfter an. Fragen Sie, ob die Heizung läuft und ob genug Medikamente im Haus sind.",
+     "topicos": [
+      "Öfter anrufen",
+      "Heizung prüfen",
+      "Medikamente da?"
+     ]
+    },
+    {
+     "texto": "Übernehmen Sie das *Schneeschippen* oder organisieren Sie Hilfe. Und kaufen Sie bei Glatteis ein, damit niemand rausmuss.",
+     "imagens": [
+      {
+       "id": "k042",
+       "prompt": "grandson carrying grocery bags to his grandparents house on an icy day",
+       "rotulo": "Einkaufen übernehmen"
+      }
+     ]
+    },
+    {
+     "texto": "Solche kleinen Dinge können im Winter wirklich ein Leben retten.",
+     "imagens": [
+      {
+       "id": "k043",
+       "prompt": "elderly woman smiling on the phone at home with snow outside the window",
+       "rotulo": "Kleine Hilfe, große Wirkung"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Gut durch den Winter",
+   "falas": [
+    {
+     "texto": "Fassen wir zusammen: Blutdruck im Blick, Medikamente regelmäßig, warm anziehen mit Schal vor dem Mund, vorsichtig beim Schneeschippen.",
+     "topicos": [
+      "Blutdruck",
+      "Medikamente",
+      "Warm anziehen",
+      "Vorsicht beim Schnee"
+     ]
+    },
+    {
+     "texto": "Dazu eine warme Wohnung, Bewegung, herzgesundes Essen und die Grippeimpfung.",
+     "imagens": [
+      {
+       "id": "k035",
+       "prompt": "cozy warm living room in winter with an elderly couple reading, snow outside the window",
+       "rotulo": "Gut geschützt"
+      }
+     ]
+    },
+    {
+     "texto": "Mit diesen einfachen Regeln kommen Sie und Ihr Herz *sicher* durch den Winter.",
+     "imagens": [
+      {
+       "id": "k036",
+       "prompt": "happy senior couple walking hand in hand through a snowy village",
+       "rotulo": "Sicher durch den Winter"
+      }
+     ]
+    },
+    {
+     "texto": "Was tun Sie im Winter für Ihr Herz? Schreiben Sie es gern in die Kommentare. Und *abonnieren* Sie Gesund ab 60. Bleiben Sie gesund und warm.",
+     "imagens": [
+      {
+       "id": "k037",
+       "prompt": "elderly woman smiling while using a tablet with a cup of tea, winter evening",
+       "rotulo": "Kommentieren"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "thumb_prompt": "YouTube thumbnail, 16:9, bold cartoon illustration with thick black outlines and vibrant colors. A frightened elderly man with gray hair and a wool hat standing in heavy snow, holding a snow shovel with one hand and clutching his chest with the other; a glowing red heart with jagged pulse lines on his chest; icy blue snowy background. Big bold condensed German text on the right with thick black outline: \"KÄLTE\" in white and \"GEFAHR FÜRS HERZ!\" in yellow. A thick red arrow points at the glowing heart. High contrast, no watermark."
+}

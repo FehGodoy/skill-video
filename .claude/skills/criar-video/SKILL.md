@@ -25,9 +25,9 @@ Crie `videos/<slug>/roteiro.json` (slug curto, minúsculo, com hífens). Formato
  "voice_id": "<de canais.json>",
  "language": "en",
  "velocidade": 0.9,
- "titulo": "Título no estilo do canal (máx. 100 caracteres)",
- "descricao": "2–3 frases + aviso de imagens geradas por IA (+ aviso médico no gesund)",
- "tags": "tag1,tag2,...",
+ "titulo": "Título longo com SEO (ver seção 'Título, descrição e tags')",
+ "descricao": "Descrição longa com SEO e {capitulos} (ver seção abaixo)",
+ "tags": "tag1,tag2,... (15–30 tags)",
  "estilo_imagem": "<de canais.json>",
  "cenas": [
   {"titulo": "Título curto da tela",
@@ -55,6 +55,30 @@ Regras do roteiro:
   só informação médica consensual.
 - Conte as palavras e ajuste antes de seguir.
 
+## Título, descrição e tags (SEO) — REGRA DO USUÁRIO
+Sempre com estratégia de SEO e **longos**. **Nunca** escrever na descrição que o
+vídeo ou as imagens foram gerados por IA. Decisão do usuário: o upload também
+**não** marca "conteúdo alterado/sintético" (só com `--marcar-ia`, se ele pedir).
+
+- **Título**: 70–100 caracteres, no idioma do canal. Palavra-chave principal
+  (o que as pessoas buscam) nas primeiras palavras + gancho de curiosidade no
+  estilo do canal (números, "most people", "die meisten", parênteses, CAIXA ALTA
+  em 1 palavra). Ex.: "Best and Worst Honda Engines Ever Built: Which Ones Last
+  300K Miles (And Which to AVOID)".
+- **Descrição**: 1.500–3.000 caracteres, no idioma do canal:
+  1. 2 primeiras linhas = gancho com a palavra-chave principal (aparecem na busca).
+  2. Parágrafo de resumo (3–5 frases) com palavras-chave secundárias naturais.
+  3. `{capitulos}` numa linha sozinha — vira a lista de capítulos com tempos
+     (`0:00 Título da cena`), gerada automaticamente da narração.
+  4. Bloco "Neste vídeo / In this video" com 5–8 pontos (✅ ou •).
+  5. 3–5 perguntas frequentes curtas com resposta (pegam buscas de cauda longa).
+  6. Chamada para comentar, inscrever-se e assistir outros vídeos do canal.
+  7. No **gesund**: aviso médico ("Dieses Video dient nur der Information und
+     ersetzt keine ärztliche Beratung... Notruf 112") — este aviso continua.
+  8. 3–5 hashtags no final (#Honda #HondaEngines… / #Gesundheit #Herz…).
+- **Tags**: 15–30, até ~450 caracteres: palavra-chave principal, variações,
+  modelos/sintomas citados, termos de cauda longa, nome do canal.
+
 ## 3. Gerar e montar
 Rode em background (leva ~40–50 min, quase tudo no Kaggle):
 
@@ -71,19 +95,26 @@ Etapas (cada uma é pulada se já estiver pronta):
 3. `motor/montar.py` — fundo claro, título da cena, imagens surgindo com rótulos,
    tópicos e legendas sincronizadas → `video.mp4`.
 4. `youtube/upload.py` — envia como **privado** no canal certo (token por canal
-   em `youtube/tokens/`), com conteúdo sintético marcado e `thumb.png` se existir.
+   em `youtube/tokens/`), sem marcar conteúdo sintético, com `thumb.png` se existir.
 
 Antes do envio, confira 3–4 quadros do vídeo (extraia com ffmpeg e olhe) e uma
 folha de contato das imagens (logos, deformações, texto estranho). Se algo
 estiver errado, corrija e refaça só a etapa necessária.
 
-## 4. Thumbnail
-O usuário cria a capa numa IA externa. Escreva em `videos/<slug>/thumb_prompts.md`
-2 prompts em inglês (16:9): um rosto com emoção forte + objeto destacado com
-seta/círculo vermelho, texto grande de 3–4 palavras com contorno preto (branco +
-amarelo ou vermelho), texto à direita. Mostre os prompts na resposta.
-Se ele mandar a imagem, salve como `videos/<slug>/thumb.png` (1280×720) e,
-se o vídeo já foi enviado, use o YouTube Studio ou reenvie só a capa.
+## 4. Thumbnail (automática, OpenAI)
+Coloque no roteiro o campo `"thumb_prompt"` (inglês, 16:9): um rosto com emoção
+forte + objeto destacado com seta/círculo vermelho, texto grande de 3–4 palavras
+com contorno preto (branco + amarelo ou vermelho), texto à direita, assunto à
+esquerda. O `gerar_video.py` chama `motor/thumb_ia.py` (API de imagens da OpenAI,
+`OPENAI_API_KEY` no `.env`), salva `thumb.png` 1280×720 e envia junto com o vídeo.
+Antes de enviar, abra o `thumb.png` e confira o texto (letras erradas, sobretudo
+Ä/Ö/Ü/ß). Se estiver ruim: `python motor/thumb_ia.py videos/<slug> --refazer`.
+**Custo:** gera em qualidade média por padrão (mais barata e rápida). Só use
+`--alta` se a média sair com texto ou detalhes ruins, e no máximo 1 refação por
+vídeo sem perguntar ao usuário — cada imagem é cobrada na conta OpenAI dele.
+Para trocar a capa de um vídeo já enviado (id em `videos/<slug>/youtube.json`):
+`python youtube/upload.py capa --canal <canal> --video-id <id> --thumb videos/<slug>/thumb.png`.
+Escreva também 1–2 prompts alternativos em `thumb_prompts.md` e mostre na resposta.
 
 ## 5. Entregar
 Diga ao usuário: título, duração, link do YouTube Studio (privado), o que conferiu
